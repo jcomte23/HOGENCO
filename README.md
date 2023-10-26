@@ -36,9 +36,11 @@ Visita el sitio web: [https://hogenco.com](https://hogenco.com)
 
 Simplifica tu búsqueda de vivienda con HOGENCO. Únete a nuestra comunidad y ayúdanos a crear un impacto positivo en la vida de quienes buscan viviendas asequibles.
 
----
+## Author
 
+This project was created by **[Javier Cómbita Téllez](https://github.com/jcomte23)**, **[Ken Alexander Castro Penagos](https://github.com/Kencastr0)** and **[Darwin David Mosquera Andrade](https://github.com/jcomte23)**. 
 
+If you have any questions or comments about the project, you can contact Javier Cómbita at Jcomte23@outlook.com.
 
 ## Project status
 
