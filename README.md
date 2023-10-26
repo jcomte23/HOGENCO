@@ -38,3 +38,7 @@ Simplifica tu búsqueda de vivienda con HOGENCO. Únete a nuestra comunidad y ay
 
 Visita nuestro sitio web: [www.hogenco.com](https://www.hogenco.com)
 
+## Project status
+
+This project is currently under active development and updates are expected to be released in the near future
+
