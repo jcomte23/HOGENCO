@@ -22,7 +22,7 @@ a {
 
 <b> #AffordableHousing #RentalSearch #PerfectHome </b>
 
-Visit website: [https://hogenco.com](https://hogenco.com)
+Visit website: <a href="https://hogenco.com" target="_blank">https://hogenco.com</a>
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ Visit website: [https://hogenco.com](https://hogenco.com)
 
 This project was created by **[Javier Cómbita Téllez](https://github.com/jcomte23)**, **[Ken Alexander Castro Penagos](https://github.com/Kencastr0)** and **[Darwin David Mosquera Andrade](https://github.com/darwingx990)**. 
 
-If you have any questions or comments about the project, you can contact Javier Cómbita at <a href="mailto:jcomte23@outlook.com" target="_blank" ">Jcomte23@outlook.com</a>
+If you have any questions or comments about the project, you can contact Javier Cómbita at <a href="mailto:jcomte23@outlook.com" target="_blank">Jcomte23@outlook.com</a>
 
 ## Project status
 
