@@ -34,7 +34,7 @@ Visit website: [https://hogenco.com](https://hogenco.com)
 
 ## Authors
 
-This project was created by **[Javier Cómbita Téllez](https://github.com/jcomte23)**, **[Ken Alexander Castro Penagos](https://github.com/Kencastr0)** and **[Darwin David Mosquera Andrade](https://github.com/jcomte23)**. 
+This project was created by **[Javier Cómbita Téllez](https://github.com/jcomte23)**, **[Ken Alexander Castro Penagos](https://github.com/Kencastr0)** and **[Darwin David Mosquera Andrade](https://github.com/darwingx990)**. 
 
 If you have any questions or comments about the project, you can contact Javier Cómbita at Jcomte23@outlook.com.
 
