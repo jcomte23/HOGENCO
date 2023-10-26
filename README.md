@@ -1,3 +1,9 @@
+<style>
+a {
+    text-decoration: none; /* Elimina el subrayado */
+}
+</style>
+
 <h1 align="center"> HOGENCO 🏠</h1>
 
 <p align="center">HOGENCO is a web platform dedicated to simplifying the search for and access to affordable rental housing for those facing economic challenges. Our goal is to provide an effective and affordable solution to finding the perfect home that fits your needs and budget. </p>
@@ -36,7 +42,7 @@ Visit website: [https://hogenco.com](https://hogenco.com)
 
 This project was created by **[Javier Cómbita Téllez](https://github.com/jcomte23)**, **[Ken Alexander Castro Penagos](https://github.com/Kencastr0)** and **[Darwin David Mosquera Andrade](https://github.com/darwingx990)**. 
 
-If you have any questions or comments about the project, you can contact Javier Cómbita at <a href="mailto:jcomte23@outlook.com" target="_blank" style="text-decoration: none;">Jcomte23@outlook.com</a>
+If you have any questions or comments about the project, you can contact Javier Cómbita at <a href="mailto:jcomte23@outlook.com" target="_blank" ">Jcomte23@outlook.com</a>
 
 ## Project status
 
