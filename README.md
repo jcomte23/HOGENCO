@@ -16,6 +16,10 @@ HOGENCO es una plataforma web dedicada a simplificar la búsqueda y acceso a viv
 
 🏡 **Vivienda Asequible**: Contribuye a la vivienda asequible y mejora la calidad de vida.
 
+**#ViviendaAsequible #BusquedaDeAlquiler #HogarPerfecto**
+
+Visita el sitio web: [https://hogenco.com](https://hogenco.com)
+
 ## Getting Started
 
 1.Clone the repository, preferably via SSH security keys or there is also the HTTPS method.
@@ -34,9 +38,7 @@ Simplifica tu búsqueda de vivienda con HOGENCO. Únete a nuestra comunidad y ay
 
 ---
 
-**#ViviendaAsequible #BusquedaDeAlquiler #HogarPerfecto**
 
-Visita nuestro sitio web: [www.hogenco.com](https://www.hogenco.com)
 
 ## Project status
 
