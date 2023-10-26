@@ -1,8 +1,6 @@
-# HOGENCO 🏠
+<h1 align="center"> HOGENCO 🏠</h1>
 
-## Facilitando el acceso a viviendas asequibles
-
-HOGENCO es una plataforma web dedicada a simplificar la búsqueda y acceso a viviendas de alquiler asequibles para aquellas personas que enfrentan desafíos económicos. Nuestro objetivo es brindar una solución efectiva y accesible para encontrar el hogar perfecto que se ajuste a tus necesidades y presupuesto.
+<p align="center">HOGENCO is a web platform dedicated to simplifying the search for and access to affordable rental housing for those facing economic challenges. Our goal is to provide an effective and affordable solution to finding the perfect home that fits your needs and budget. </p>
 
 ## Featured Features
 
@@ -31,10 +29,6 @@ Visit website: [https://hogenco.com](https://hogenco.com)
 3.Open the file ```index.html``` in your code editor.
 
 3.Run ```index.html``` in your favorite browser.
-
-### Únete a HOGENCO
-
-Simplifica tu búsqueda de vivienda con HOGENCO. Únete a nuestra comunidad y ayúdanos a crear un impacto positivo en la vida de quienes buscan viviendas asequibles.
 
 ## Author
 
