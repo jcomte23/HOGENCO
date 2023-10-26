@@ -4,21 +4,21 @@
 
 HOGENCO es una plataforma web dedicada a simplificar la búsqueda y acceso a viviendas de alquiler asequibles para aquellas personas que enfrentan desafíos económicos. Nuestro objetivo es brindar una solución efectiva y accesible para encontrar el hogar perfecto que se ajuste a tus necesidades y presupuesto.
 
-### Características Destacadas
+## Featured Features
 
-🔍 **Búsqueda Avanzada**: Encuentra viviendas de alquiler de manera rápida y eficiente.
+🔍 Advanced Search: Find rental homes quickly and efficiently.
 
-🎯 **Filtrado Personalizado**: Ajusta la búsqueda por ubicación, precio y comodidades.
+🎯 Custom Filtering – Adjust your search by location, price and amenities.
 
-🖥️ **Interfaz Amigable**: Tanto propietarios como arrendatarios disfrutarán de una experiencia sencilla.
+🖥️ Friendly interface: Both owners and tenants will enjoy a simple experience.
 
-🤝 **Transparencia y Confianza**: Fomentamos relaciones de alquiler sólidas y confiables.
+🤝 Transparency and Trust: We foster solid and reliable rental relationships.
 
-🏡 **Vivienda Asequible**: Contribuye a la vivienda asequible y mejora la calidad de vida.
+🏡 Affordable housing: Contributes to affordable housing and improves quality of life.
 
-**#ViviendaAsequible #BusquedaDeAlquiler #HogarPerfecto**
+**#AffordableHousing #RentalSearch #PerfectHome
 
-Visita el sitio web: [https://hogenco.com](https://hogenco.com)
+Visit website: [https://hogenco.com](https://hogenco.com)
 
 ## Getting Started
 
