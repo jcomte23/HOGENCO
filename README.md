@@ -16,7 +16,8 @@
 
 <b> #AffordableHousing #RentalSearch #PerfectHome </b>
 
-Visit website: <a href="https://hogenco.com" target="_blank">https://hogenco.com</a>
+Visit website: **[https://hogenco.com](https://hogenco.com)**
+
 
 ## Getting Started
 
