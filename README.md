@@ -26,9 +26,11 @@ Visit website: [https://hogenco.com](https://hogenco.com)
 
 2.Execute the command ```cd HOGENCO``` to move within the project.
 
-3.Open the file ```index.html``` in your code editor.
+3.Switch to your personal work branch: ```git checkout your_branch``` 
 
-3.Run ```index.html``` in your favorite browser.
+4.Open the file ```index.html``` in your code editor.
+
+5.Run ```index.html``` in your favorite browser.
 
 ## Authors
 
