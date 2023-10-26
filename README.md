@@ -14,7 +14,7 @@
 
 🏡 Affordable housing: Contributes to affordable housing and improves quality of life.
 
-** #AffordableHousing #RentalSearch #PerfectHome
+<b> #AffordableHousing #RentalSearch #PerfectHome </b>
 
 Visit website: [https://hogenco.com](https://hogenco.com)
 
