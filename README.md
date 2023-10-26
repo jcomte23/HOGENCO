@@ -1,9 +1,3 @@
-<style>
-a {
-    text-decoration: none; /* Elimina el subrayado */
-}
-</style>
-
 <h1 align="center"> HOGENCO 🏠</h1>
 
 <p align="center">HOGENCO is a web platform dedicated to simplifying the search for and access to affordable rental housing for those facing economic challenges. Our goal is to provide an effective and affordable solution to finding the perfect home that fits your needs and budget. </p>
