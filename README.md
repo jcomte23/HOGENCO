@@ -30,7 +30,7 @@ Visit website: [https://hogenco.com](https://hogenco.com)
 
 3.Run ```index.html``` in your favorite browser.
 
-## Author
+## Authors
 
 This project was created by **[Javier Cómbita Téllez](https://github.com/jcomte23)**, **[Ken Alexander Castro Penagos](https://github.com/Kencastr0)** and **[Darwin David Mosquera Andrade](https://github.com/jcomte23)**. 
 
