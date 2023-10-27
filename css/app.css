@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: red;
+}
+nav{
+    background-color: blue;
+}
+main{
+    display: flex;
+}
+section{
+    background-color: cadetblue;
+}
+aside{
+    background-color: green;
+}
+footer{
+    background-color: yellow;
+}
