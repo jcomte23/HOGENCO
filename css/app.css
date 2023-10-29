@@ -22,7 +22,7 @@
 }
 
 .header {
-    margin-top: 30px;
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,11 +30,11 @@
 }
 
 .header figure {
-    padding-left: 30px;
+    padding-left: 2%;
 }
 
 .header figure img {
-    width: 400px;
+    width: 50%;
 }
 
 .navbar {
@@ -42,11 +42,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    font-size: 30px;
-    margin-right: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 70%;
+    
+    font-size: 20px;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 }
