@@ -1,6 +1,6 @@
 <h1 align="center"> HOGENCO</h1>
 
-<p align="center"><img src="https://i.imgur.com/SOlg5tt.png" width="600" alt="logo"></p>
+<p align="center"><img src="https://i.imgur.com/SOlg5tt.png" width="400" alt="logo"></p>
 
 <p align="center">HOGENCO is a web platform dedicated to simplifying the search for and access to affordable rental housing for those facing economic challenges. Our goal is to provide an effective and affordable solution to finding the perfect home that fits your needs and budget. </p>
 
