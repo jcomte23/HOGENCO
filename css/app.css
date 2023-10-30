@@ -5,7 +5,7 @@
     --white: #FFFFFF;
     --black: #000000;
     --primary: #FF5621;
-    --gray-light: #B1B4BB;
+    --gray-light: rgba(177, 180, 187, 0.2);
     --gray-dark: #211F15;
     --sm: 14px;
     --md: 16px;

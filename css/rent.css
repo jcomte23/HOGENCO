@@ -37,4 +37,5 @@ figure img{
 .card__info{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
