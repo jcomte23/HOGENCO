@@ -47,15 +47,6 @@ body{
     color: var(--primary);
 }
 
-.navbar__icons {
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar__icons i {
-    text-decoration: none;
-    background-color: transparent;
-}
 
 .main {
     display: flex;
