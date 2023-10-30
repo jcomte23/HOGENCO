@@ -1,0 +1,10 @@
+@import url("app.css");
+
+body{
+    background-color: blue;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+}
