@@ -46,3 +46,32 @@ body{
 .navbar a:hover, .navbar .active {
     color: var(--primary);
 }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    background-color: var(--white-light);
+}
+
+.main__message{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main__logo{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__logo img{
+    width: 40%;
+
+}
