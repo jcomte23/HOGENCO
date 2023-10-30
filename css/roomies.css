@@ -1,4 +1,8 @@
 @import url(app.css);
 img {
-    width: 200px;
+    width: 180px;
+}
+.rounded-image{
+    border-radius: 50%;
+    height: max-content;
 }
