@@ -2,5 +2,35 @@
 
 .header{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.title{
+    width: 60%;
+}
+
+.main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__section{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.main__section article{
+    text-align: center;
+    background-color: var(--gray-light);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 20px;
 }
