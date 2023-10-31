@@ -1,14 +1,15 @@
 @import url("app.css");
 
-body{
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 50px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+figure img{
+    width: 280px;
+    height: auto;
 }
 
 .container {
@@ -27,7 +28,7 @@ ul{
 
 .footer {
     background-color: #211F15;
-    padding: 70px 0;
+    padding: 15px 0;
 
 }
 
