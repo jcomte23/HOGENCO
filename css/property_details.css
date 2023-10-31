@@ -1,0 +1,103 @@
+@import url(app.css);
+
+.main {
+    display: flex;
+}
+
+.main__left {
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__right {
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+}
+
+.main__right header {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+}
+
+.main__left figure {
+    background-color: var(--gray-light);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card__info {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.card__info-roomie {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.card__info-roomie img {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card__info-details {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card__info-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__info-score span i {
+    color: var(--primary);
+}
+
+.details__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__right-span {
+    color: var(--primary);
+}
+
+.split_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.split_images div {
+    width: 50%;
+}
+
+.other_images img{
+    width: 100%;
+}
