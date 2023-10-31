@@ -1,6 +1,14 @@
 @import url(app.css);
 
-body .main {
+.header_roomies {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.main {
     width: 100%;
     display: flex;
     justify-content: center;
