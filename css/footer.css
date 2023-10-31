@@ -1,13 +1,13 @@
 @import url("app.css");
 
-figure {
+.footer__logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     margin: 50px;
 }
 
-figure img{
+.footer__logo img{
     width: 280px;
     height: auto;
 }
