@@ -1,9 +1,44 @@
 @import url(app.css);
 
-img {
-    width: 180px;
+.header_roomies {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.rounded-image{
+
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container_roomie {
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px;
+    display: flex;
+}
+
+.card {
+    width: 50%;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.rounded-image {
+    width: 200px;
     border-radius: 50%;
-    height: max-content;
+}
+
+.card a {
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border: 2;
+    margin-top: 20px;
 }
