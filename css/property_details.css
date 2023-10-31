@@ -1,0 +1,67 @@
+@import url(app.css);
+
+.main{
+    display: flex;
+}
+
+.main__left{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__right{
+    width: 50%;
+}
+
+.main__left figure{
+    background-color: var(--gray-light);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card__info{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.card__info-roomie{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.card__info-roomie img{
+    display: flex;
+    justify-content: flex-start !important;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card__info-details{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__info-score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__info-score span i{
+    color: var(--primary);
+}
