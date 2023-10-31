@@ -51,6 +51,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 5%;
+    margin-bottom: 10%;
     background-color: var(--white-light);
 }
 

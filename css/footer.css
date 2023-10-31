@@ -1,61 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-
-:root {
-    --white: #FFFFFF;
-    --black: #000000;
-    --primary: #FF5621;
-    --white-light: rgba(255, 255, 255, 0.8);
-    --gray-light: rgba(177, 180, 187, 0.2);
-    --gray-dark: #211F15;
-    --sm: 14px;
-    --md: 16px;
-    --lg: 18px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif, 'roboto';
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    font-size: 20px;
-    margin-right: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: var(--gray-dark);
-    border-radius: 50px;
-}
-
-.navbar a {
-    color: var(--white);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar a:hover, .navbar .active {
-    color: var(--primary);
-}
-
-.navbar__icons {
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar__icons i {
-    text-decoration: none;
-    background-color: transparent;
-}
-
+@import url("app.css");
 
 .footer__logo {
     display: flex;
@@ -163,16 +106,4 @@ ul{
 @media (max-width: 574px){
     .footer-col {
         width: 100%;}
-}
-
-.uno {
-    border: 1px solid yellow;
-}
-
-.dos {
-    border: 1px solid red;
-}
-
-.tres {
-    border: 1px solid blue;
 }
