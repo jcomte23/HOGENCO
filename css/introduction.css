@@ -1,6 +1,6 @@
 @import url("app.css");
 
-body{
+body {
     background-image: url('../img/home-background.webp');
     background-size: cover;
 }
@@ -43,7 +43,8 @@ body{
     background-color: transparent;
 }
 
-.navbar a:hover, .navbar .active {
+.navbar a:hover,
+.navbar .active {
     color: var(--primary);
 }
 
@@ -83,12 +84,81 @@ section * {
     font-size: 40px;
 }
 
-.section__button button {
-    margin-top: 4%;
+.section__button {
+    margin-top: 10%;
+}
+
+.section__button a {
+    text-decoration: none;
     background-color: #ffffff;
     color: #000000;
     border-radius: 50px;
     padding: 10px 20px;
     font-size: 20px;
     cursor: pointer;
+}
+
+
+/* Responsividad */
+
+/* Escritorio */
+
+/* Table o movil (Revisamos en 768px) */
+@media (max-width:768px) {
+    body {
+        background-image: url('../img/home-background.webp');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .header {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header figure img {
+        width: 50%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        font-size: 20px;
+        margin-right: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: var(--gray-dark);
+        border-radius: 50px;
+    }
+
+    .section {
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section__message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
+        height: 400px;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
