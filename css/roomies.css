@@ -7,6 +7,19 @@
     padding-bottom: 20px;
 }
 
+.header_roomies {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header_roomies h1{
+    text-align: center;
+}
+
+.navbar {
+    justify-content: space-evenly;
+}
 
 .main {
     width: 100%;
