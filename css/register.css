@@ -1,0 +1,45 @@
+@import url("app.css");
+
+body{
+    background-image: url('../img/register-background.webp');
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+}
+
+.main__left{
+    width: 50%;
+    padding: 60px;
+
+}
+
+.header {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header figure {
+    padding-left: 2%;
+}
+
+.header figure img {
+    width: 50%;
+}
+
+.article{
+    margin-top: 10%;
+    color: var(--white);
+}
+
+.article h1{
+    font-size: 50px;
+}
+
+.main__right{
+    width: 50%;
+}
