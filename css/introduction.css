@@ -83,8 +83,12 @@ section * {
     font-size: 40px;
 }
 
-.section__button button {
-    margin-top: 4%;
+.section__button{
+    margin-top: 10%;
+}
+
+.section__button a {
+    text-decoration: none;
     background-color: #ffffff;
     color: #000000;
     border-radius: 50px;
