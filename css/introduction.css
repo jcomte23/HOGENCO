@@ -1,6 +1,6 @@
 @import url("app.css");
 
-body{
+body {
     background-image: url('../img/home-background.webp');
     background-size: cover;
 }
@@ -43,7 +43,8 @@ body{
     background-color: transparent;
 }
 
-.navbar a:hover, .navbar .active {
+.navbar a:hover,
+.navbar .active {
     color: var(--primary);
 }
 
@@ -83,7 +84,7 @@ section * {
     font-size: 40px;
 }
 
-.section__button{
+.section__button {
     margin-top: 10%;
 }
 
@@ -103,7 +104,13 @@ section * {
 /* Escritorio */
 
 /* Table o movil (Revisamos en 768px) */
-@media (max-width:768px){
+@media (max-width:768px) {
+    body {
+        background-image: url('../img/home-background.webp');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
     .header {
         margin-top: 1%;
         display: flex;
@@ -115,7 +122,7 @@ section * {
         display: flex;
         justify-content: center;
     }
-    
+
     .header figure img {
         width: 50%;
     }
