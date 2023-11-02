@@ -27,13 +27,8 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     width: 70%;
-    font-size: 20px;
-    margin-right: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
     background-color: var(--gray-dark);
     border-radius: 50px;
 }
@@ -44,6 +39,7 @@ body {
     margin-bottom: 10px;
     text-decoration: none;
     background-color: transparent;
+    transition: all 0.3s ease 0s;
 }
 
 .navbar a:hover,
@@ -108,7 +104,7 @@ section * {
 */
 
 /* Estilos para tablets en modo retrato */
-@media screen and (min-width: 100px) and (max-width: 767px) {
+/* @media screen and (min-width: 100px) and (max-width: 767px) {
   
     
     .header {
@@ -159,10 +155,10 @@ section * {
         padding-left: 10%;
         padding-right: 10%;
     }
-}
+} */
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
    
 
     .header figure img {
@@ -204,10 +200,10 @@ section * {
         padding-left: 10%;
         padding-right: 10%;
     }
-}
+} */
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media screen and (min-width: 992px) and (max-width: 1199px) {
     .header figure {
         width: 60%;
     }
@@ -237,10 +233,10 @@ section * {
         padding-left: 10%;
         padding-right: 10%;
     }
-}
+} */
 
 /* Estilos para pantallas grandes y televisores */
-@media screen and (min-width: 1200px) and (max-width: 1919px) { 
+/* @media screen and (min-width: 1200px) and (max-width: 1919px) { 
     .header figure {
         width: 80%;
     }
@@ -249,10 +245,10 @@ section * {
         font-size: 30px;
     }
     
-}
+} */
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
     .header figure {
         width: 90%;
     }
@@ -260,72 +256,5 @@ section * {
     .navbar {
         font-size: 40px;
     }
-}
-
-
-
-
-
-/* Responsividad */
-
-/* Escritorio */
-
-/* Table o movil (Revisamos en 768px) */
-/* @media (max-width:768px) {
-    body {
-        background-image: url('../img/home-background.webp');
-        background-attachment: fixed;
-        background-size: cover;
-    }
-
-    .header {
-        margin-top: 1%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .header figure {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header figure img {
-        width: 50%;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 95%;
-        font-size: 20px;
-        margin-right: 2%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: var(--gray-dark);
-        border-radius: 50px;
-    }
-
-    .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
 } */
+
