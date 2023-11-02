@@ -133,23 +133,23 @@ body {
 }
 
 /* Estilos para pantallas grandes y televisores */
-/* @media screen and (min-width: 1200px) and (max-width: 1919px) { 
+@media screen and (min-width: 1200px) and (max-width: 1919px) { 
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 45%;
+    }
+}
+
+/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
+/* @media screen and (min-width: 1920px) {
+
     body {
         background-color: blue;
     }
 
-    .header figure {
-        width: 80%;
-    }
-
-    .navbar {
-        font-size: 30px;
-    }
-    
-} */
-
-/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-/* @media screen and (min-width: 1920px) {
     .header figure {
         width: 90%;
     }
