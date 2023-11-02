@@ -1,11 +1,11 @@
 @import url("app.css");
 
 body {
-    /* background-color: gray; */
-    background-image: url('../img/home-background.webp');
+    background-color: gray;
+    /* background-image: url('../img/home-background.webp');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .header {
@@ -76,14 +76,39 @@ body {
 */
 
 /* Estilos para tablets en modo retrato */
-/* @media screen and (min-width: 100px) and (max-width: 767px) {
-  
-    
-    .header {
-        flex-direction: column;
-        gap: 5px;
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    body {
+        background-color: blue;
     }
 
+    .header {
+        flex-direction: column;
+    }
+    
+    .header figure {
+        width: 80%;
+    }
+
+    .navbar a:first-child {
+        margin-left: 0px;
+    }
+
+    .navbar {
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;  
+    }
+
+    .section {
+        margin: 30% 2% 30% 2%;
+    }
+
+    
+
+    
+    /* 
     .header figure {
         display: flex;
         justify-content: center;
@@ -126,8 +151,8 @@ body {
         padding-top: 5%;
         padding-left: 10%;
         padding-right: 10%;
-    }
-} */
+    } */
+}
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 /* @media screen and (min-width: 768px) and (max-width: 991px) {
