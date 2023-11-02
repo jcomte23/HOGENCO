@@ -134,6 +134,11 @@ body {
 
 /* Estilos para pantallas grandes y televisores */
 @media screen and (min-width: 1200px) and (max-width: 1919px) { 
+    body {
+        background-color: blue;
+        font-size: 30px;
+    }
+    
     .header figure {
         width: 30%;
     }
@@ -144,17 +149,23 @@ body {
 }
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-/* @media screen and (min-width: 1920px) {
-
-    body {
-        background-color: blue;
-    }
-
+@media screen and (min-width: 1920px) {
     .header figure {
-        width: 90%;
+        width: 30%;
     }
 
     .navbar {
+        width: 45%;
+    }
+
+    .section__message {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .section__button button {
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-size: 40px;
     }
-} */
+}
