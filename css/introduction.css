@@ -1,11 +1,10 @@
 @import url("app.css");
 
 body {
-    background-color: gray;
-    /* background-image: url('../img/home-background.webp');
+    background-image: url('../img/home-background.webp');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 }
 
 .header {
@@ -133,12 +132,7 @@ body {
 }
 
 /* Estilos para pantallas grandes y televisores */
-@media screen and (min-width: 1200px) and (max-width: 1919px) { 
-    body {
-        background-color: blue;
-        font-size: 30px;
-    }
-    
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
     .header figure {
         width: 30%;
     }
