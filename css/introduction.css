@@ -1,81 +1,44 @@
 @import url("app.css");
 
 body {
-    /* background-color: gray; */
     background-image: url('../img/home-background.webp');
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 .header {
-    margin-top: 1%;
+    padding: 4% 4% 0 4%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .header figure {
-    padding-left: 2%;
-    width: 50%;
+    width: 20%;
 }
 
 .header figure img {
-    width: 50%;
+    width: 100%;
 }
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    font-size: 20px;
-    margin-right: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: var(--gray-dark);
-    border-radius: 50px;
-}
-
-.navbar a {
-    color: var(--white);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar a:hover,
-.navbar .active {
-    color: var(--primary);
-}
-
 
 .main {
+    padding: 4% 4% 10% 4%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .section {
-    margin-top: 13%;
-    margin-bottom: 13%;
-    margin-left: 35%;
-    margin-right: 35%;
-}
-
-section * {
-    background-color: transparent;
     text-align: center;
+    margin: 8% 29% 0 29%;
 }
 
 .section__message {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+    background-color: var(--black-light);
     border-radius: 50px;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 2% 15% 2% 15%;
 }
 
 .section__message span {
@@ -83,19 +46,24 @@ section * {
 }
 
 .section__message h1 {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
 .section__button {
-    margin-top: 10%;
+    text-align: center;
+    margin-top: 8%;
 }
 
-.section__button a {
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #000000;
+.section__button button {
+    width: 55%;
+    background-color: var(--white);
+    color: var(--black);
     border-radius: 50px;
-    padding: 10px 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -108,223 +76,90 @@ section * {
 
 /* Estilos para tablets en modo retrato */
 @media screen and (min-width: 100px) and (max-width: 767px) {
-  
-    
     .header {
         flex-direction: column;
-        gap: 5px;
     }
-
+    
     .header figure {
-        display: flex;
-        justify-content: center;
+        width: 80%;
     }
 
-    .header figure img {
-        width: 100%;
+    .navbar a:first-child {
+        margin-left: 0px;
     }
 
     .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 95%;
-        font-size: 20px;
-        margin-right: 2%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: var(--gray-dark);
-        border-radius: 50px;
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;  
     }
 
     .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
+        margin: 30% 2% 30% 2%;
     }
 }
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-   
-
-    .header figure img {
-        width: 100%;
+    .header figure {
+        width: 20%;
     }
 
     .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        font-size: 20px;
-        margin-right: 2%;
-        margin-left: 5%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: var(--gray-dark);
-        border-radius: 50px;
+        width: 70%;
     }
 
     .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
+        margin: 15% 20% 15% 20%;
     }
 }
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .header figure {
+        width: 30%;
+    }
+
+    .navbar {
         width: 60%;
     }
 
-    .header figure img {
-        width: 90%;
-    }
-
-
     .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
+        margin: 15% 20% 15% 20%;
     }
 }
 
 /* Estilos para pantallas grandes y televisores */
-@media screen and (min-width: 1200px) and (max-width: 1919px) { 
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
     .header figure {
-        width: 80%;
+        width: 30%;
     }
 
     .navbar {
-        font-size: 30px;
+        width: 45%;
     }
-    
 }
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
 @media screen and (min-width: 1920px) {
     .header figure {
-        width: 90%;
+        width: 30%;
     }
 
     .navbar {
-        font-size: 40px;
-    }
-}
-
-
-
-
-
-/* Responsividad */
-
-/* Escritorio */
-
-/* Table o movil (Revisamos en 768px) */
-/* @media (max-width:768px) {
-    body {
-        background-image: url('../img/home-background.webp');
-        background-attachment: fixed;
-        background-size: cover;
-    }
-
-    .header {
-        margin-top: 1%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .header figure {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header figure img {
-        width: 50%;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 95%;
-        font-size: 20px;
-        margin-right: 2%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: var(--gray-dark);
-        border-radius: 50px;
-    }
-
-    .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 45%;
     }
 
     .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
-} */
+
+    .section__button button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+}
