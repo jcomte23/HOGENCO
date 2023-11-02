@@ -77,8 +77,6 @@ body {
 
 /* Estilos para tablets en modo retrato */
 @media screen and (min-width: 100px) and (max-width: 767px) {
-    
-
     .header {
         flex-direction: column;
     }
@@ -106,11 +104,6 @@ body {
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-   
-    body {
-        background-color: blue;
-    }
-
     .header figure {
         width: 20%;
     }
@@ -122,44 +115,29 @@ body {
     .section {
         margin: 15% 20% 15% 20%;
     }
-
 }
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
-/* @media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .header figure {
+        width: 30%;
+    }
+
+    .navbar {
         width: 60%;
     }
 
-    .header figure img {
-        width: 90%;
-    }
-
-
     .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 15% 20% 15% 20%;
     }
-
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-} */
+}
 
 /* Estilos para pantallas grandes y televisores */
 /* @media screen and (min-width: 1200px) and (max-width: 1919px) { 
+    body {
+        background-color: blue;
+    }
+
     .header figure {
         width: 80%;
     }
