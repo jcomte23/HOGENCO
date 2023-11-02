@@ -21,6 +21,10 @@
     font-family: 'Poppins', sans-serif, 'roboto';
 }
 
+a{
+    text-decoration: none;
+}
+
 .uno {
     border: 1px solid yellow;
 }
