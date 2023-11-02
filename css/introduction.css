@@ -16,35 +16,14 @@ body {
 }
 
 .header figure {
-    width: 50%;
+    width: 20%;
 }
 
 .header figure img {
-    width: 50%;
+    width: 100%;
 }
 
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 70%;
-    background-color: var(--gray-dark);
-    border-radius: 50px;
-}
 
-.navbar a {
-    color: var(--white);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    background-color: transparent;
-    transition: all 0.3s ease 0s;
-}
-
-.navbar a:hover,
-.navbar .active {
-    color: var(--primary);
-}
 
 
 .main {
@@ -257,4 +236,3 @@ section * {
         font-size: 40px;
     }
 } */
-

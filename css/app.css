@@ -32,20 +32,24 @@
     border: 1px solid blue;
 }
 
-
+/* 
+=====================
+|BARRA DE NAVEGACION|
+===================== 
+*/
 
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    font-size: 20px;
-    margin-right: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 42%;
+    justify-content: space-around;
     background-color: var(--gray-dark);
-    border-radius: 50px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.navbar a:first-child{
+    margin-left: 20px;
 }
 
 .navbar a {
@@ -54,22 +58,19 @@
     margin-bottom: 10px;
     text-decoration: none;
     background-color: transparent;
+    transition: all 0.3s ease 0s;
 }
 
-.navbar a:hover, .navbar .active {
+.navbar a:hover,
+.navbar .active {
     color: var(--primary);
 }
 
-.navbar__icons {
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar__icons i {
-    text-decoration: none;
-    background-color: transparent;
-}
-
+/* 
+=======================
+|    PIE DE PAGINA    |
+======================= 
+*/
 
 .footer__logo {
     display: flex;
