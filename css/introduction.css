@@ -1,6 +1,7 @@
 @import url("app.css");
 
 body {
+    /* background-color: gray; */
     background-image: url('../img/home-background.webp');
     background-size: cover;
 }
@@ -15,6 +16,7 @@ body {
 
 .header figure {
     padding-left: 2%;
+    width: 50%;
 }
 
 .header figure img {
@@ -106,15 +108,11 @@ section * {
 
 /* Estilos para tablets en modo retrato */
 @media screen and (min-width: 100px) and (max-width: 767px) {
-    body {
-        background-attachment: fixed;
-    }
-
+  
+    
     .header {
-        margin-top: 1%;
-        display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 5px;
     }
 
     .header figure {
@@ -123,7 +121,7 @@ section * {
     }
 
     .header figure img {
-        width: 50%;
+        width: 100%;
     }
 
     .navbar {
@@ -163,18 +161,105 @@ section * {
 }
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
-/* @media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   
 
-} */
+    .header figure img {
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        margin-right: 2%;
+        margin-left: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: var(--gray-dark);
+        border-radius: 50px;
+    }
+
+    .section {
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section__message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
+        height: 400px;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
-/* @media screen and (min-width: 992px) and (max-width: 1199px) {} */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .header figure {
+        width: 60%;
+    }
+
+    .header figure img {
+        width: 90%;
+    }
+
+
+    .section {
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section__message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
+        height: 400px;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
 
 /* Estilos para pantallas grandes y televisores */
-/* @media screen and (min-width: 1200px) and (max-width: 1919px) {} */
+@media screen and (min-width: 1200px) and (max-width: 1919px) { 
+    .header figure {
+        width: 80%;
+    }
+
+    .navbar {
+        font-size: 30px;
+    }
+    
+}
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-/* @media screen and (min-width: 1920px) {} */
+@media screen and (min-width: 1920px) {
+    .header figure {
+        width: 90%;
+    }
+
+    .navbar {
+        font-size: 40px;
+    }
+}
 
 
 
