@@ -77,9 +77,7 @@ body {
 
 /* Estilos para tablets en modo retrato */
 @media screen and (min-width: 100px) and (max-width: 767px) {
-    body {
-        background-color: blue;
-    }
+    
 
     .header {
         flex-direction: column;
@@ -104,100 +102,28 @@ body {
     .section {
         margin: 30% 2% 30% 2%;
     }
-
-    
-
-    
-    /* 
-    .header figure {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header figure img {
-        width: 100%;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 95%;
-        font-size: 20px;
-        margin-right: 2%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: var(--gray-dark);
-        border-radius: 50px;
-    }
-
-    .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-    } */
 }
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
-/* @media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
    
+    body {
+        background-color: blue;
+    }
 
-    .header figure img {
-        width: 100%;
+    .header figure {
+        width: 20%;
     }
 
     .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        font-size: 20px;
-        margin-right: 2%;
-        margin-left: 5%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: var(--gray-dark);
-        border-radius: 50px;
+        width: 70%;
     }
 
     .section {
-        margin-top: 30%;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 15% 20% 15% 20%;
     }
 
-    .section__message {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        height: 400px;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-} */
+}
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
 /* @media screen and (min-width: 992px) and (max-width: 1199px) {
