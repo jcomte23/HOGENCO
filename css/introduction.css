@@ -3,20 +3,19 @@
 body {
     /* background-color: gray; */
     background-image: url('../img/home-background.webp');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
 .header {
-    margin-top: 1%;
+    padding: 4% 4% 0 4%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .header figure {
-    padding-left: 2%;
     width: 50%;
 }
 
@@ -49,6 +48,7 @@ body {
 
 
 .main {
+    padding: 4% 4% 0 4%;
     display: flex;
     justify-content: center;
     align-items: center;
