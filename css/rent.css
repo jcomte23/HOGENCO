@@ -98,19 +98,25 @@
 }
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
-/* @media screen and (min-width: 768px) and (max-width: 991px) {
-    .header figure {
-        width: 20%;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* body{
+        background-color: yellow;
+    } */
+
+    .header__navbar{
+        justify-content: center;
     }
 
     .navbar {
         width: 70%;
     }
 
-    .section {
-        margin: 15% 20% 15% 20%;
-    }
-} */
+    .title{
+        margin-top: 1%;
+        width: 100%;
+        text-align: center;
+    }    
+}
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
 /* @media screen and (min-width: 992px) and (max-width: 1199px) {
