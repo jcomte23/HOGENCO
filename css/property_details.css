@@ -25,7 +25,11 @@
 .main__right header {
     display: flex;
     justify-content: end;
-    margin-bottom: 30px;
+    margin-bottom: 30px;  
+}
+
+header .navbar{
+    width: 100%;
 }
 
 .main__left figure {
