@@ -64,36 +64,38 @@
 
 
 /* Estilos para tablets en modo retrato */
-/* @media screen and (min-width: 100px) and (max-width: 767px) {
-    body{
-        background-color: blue;
-    }
-
+@media screen and (min-width: 100px) and (max-width: 767px) {
     .header {
         flex-direction: column;
         width: 100%;
     }
     
-    .header figure {
-        width: 80%;
-    }
-
-    .navbar a:first-child {
-        margin-left: 0px;
-    }
-
-    .navbar {
+    .navbar{
         width: 100%;
-        margin-top: 5%;
-        margin-right: 0px;
-        padding-left: 15px;
-        padding-right: 15px;  
+    }
+    
+    .title{
+        width: 100%;
     }
 
-    .section {
-        margin: 30% 2% 30% 2%;
+    .main{
+        padding: 1% 5% 1% 5%;
     }
-} */
+
+    .main__section{
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .card{
+        max-width: 600px;
+    }
+
+    .main__section article{
+        margin-bottom: 3%;
+
+    }
+}
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 /* @media screen and (min-width: 768px) and (max-width: 991px) {
