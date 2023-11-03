@@ -1,17 +1,30 @@
 @import url("app.css");
 
 .header{
+    margin-top: 3%;
     display: flex;
-    justify-content: space-between;
-    padding: 4% 4% 0 4%;
+    flex-direction: column;
+    padding: 1% 5% 1% 8%;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: end;
 }
 
 .title{
-    width: 60%;
+    width: 30%;
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.navbar{
+    margin-right: 0%;
+    width: 42%;
 }
 
 .main{
-    padding: 4% 4% 10% 4%;
+    padding: 1% 5% 1% 8%;
 }
 
 .main__section{
@@ -41,7 +54,7 @@ figure img{
 
 
 /* Estilos para tablets en modo retrato */
-@media screen and (min-width: 100px) and (max-width: 767px) {
+/* @media screen and (min-width: 100px) and (max-width: 767px) {
     body{
         background-color: blue;
     }
@@ -70,10 +83,10 @@ figure img{
     .section {
         margin: 30% 2% 30% 2%;
     }
-}
+} */
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
     .header figure {
         width: 20%;
     }
@@ -85,10 +98,10 @@ figure img{
     .section {
         margin: 15% 20% 15% 20%;
     }
-}
+} */
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media screen and (min-width: 992px) and (max-width: 1199px) {
     .header figure {
         width: 30%;
     }
@@ -100,10 +113,10 @@ figure img{
     .section {
         margin: 15% 20% 15% 20%;
     }
-}
+} */
 
 /* Estilos para pantallas grandes y televisores */
-@media screen and (min-width: 1200px) and (max-width: 1919px) {
+/* @media screen and (min-width: 1200px) and (max-width: 1919px) {
     .header figure {
         width: 30%;
     }
@@ -111,10 +124,10 @@ figure img{
     .navbar {
         width: 45%;
     }
-}
+} */
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
     .header figure {
         width: 30%;
     }
@@ -133,4 +146,4 @@ figure img{
         padding-bottom: 10px;
         font-size: 40px;
     }
-}
+} */
