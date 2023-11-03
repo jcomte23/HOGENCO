@@ -50,8 +50,7 @@
 }
 
 .card a {
-    background-color: rgb(255, 85, 0);
-    color: white;
+    color: rgb(255, 85, 0);
     border: 2;
     margin-top: 20px;
 }

@@ -1,37 +1,55 @@
 @import url("app.css");
 
 .header{
+    margin-top: 3%;
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    flex-direction: column;
+    padding: 1% 5% 1% 8%;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: end;
 }
 
 .title{
-    width: 60%;
+    width: 30%;
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.navbar{
+    margin-right: 0%;
+    width: 42%;
 }
 
 .main{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 1% 5% 1% 8%;
 }
 
 .main__section{
     display: flex;
     flex-direction: row;
-    gap: 2%;
+    gap: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 .main__section article{
     background-color: var(--gray-light);
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 20px;
 }
 
-figure img{
+.card{
+    max-width: 290px;
+    overflow: hidden;
+}
+
+.card img{   
     width: 100%;
-    border-radius: 20px;
+    height: auto;
+    border-radius: 40px;
 }
 
 .card__info{
@@ -39,3 +57,103 @@ figure img{
     justify-content: space-between;
     align-items: center;
 }
+.price{
+    margin-top: 3%;
+}
+
+
+
+/* Estilos para tablets en modo retrato */
+/* @media screen and (min-width: 100px) and (max-width: 767px) {
+    body{
+        background-color: blue;
+    }
+
+    .header {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .header figure {
+        width: 80%;
+    }
+
+    .navbar a:first-child {
+        margin-left: 0px;
+    }
+
+    .navbar {
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;  
+    }
+
+    .section {
+        margin: 30% 2% 30% 2%;
+    }
+} */
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
+    .header figure {
+        width: 20%;
+    }
+
+    .navbar {
+        width: 70%;
+    }
+
+    .section {
+        margin: 15% 20% 15% 20%;
+    }
+} */
+
+/* Estilos para pantallas de escritorio y tablets en modo paisaje */
+/* @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 60%;
+    }
+
+    .section {
+        margin: 15% 20% 15% 20%;
+    }
+} */
+
+/* Estilos para pantallas grandes y televisores */
+/* @media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 45%;
+    }
+} */
+
+/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
+/* @media screen and (min-width: 1920px) {
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 45%;
+    }
+
+    .section__message {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .section__button button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+} */
