@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HOGENCO: We are the best solution for you to find your home or apartment to rent in a faster and reliable way. HOGENCO helps you to simplify the search for your next home and to contribute finding an affordable housing." />
+    <meta name="keywords"
+        content="affordable, apartment, economic, home, landlord, house, Housing, platform, properties, reliable, rent, room, roomie, search, share, student, tenant" />
+    <meta name="sitedomain" content="https://hogenco.com" />
+    <meta name="organization" content="hogenco" />
+    <meta name="author" content="Javier Cómbita Téllez" />
+    <meta name="author" content="Darwing David Mosquera Andrade" />
+    <meta name="author" content="Ken Alexander Castro Penagosz" />
+    <meta name="designer" content="Ken Alexander Castro Penagos" />
+    <meta name="designer" content="Darwing David Mosquera Andrade" />
+    <meta name="designer" content="Javier Cómbita Téllez" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/filter-search.css">
+    <title>Hogenco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Filtro de Búsqueda</h1>
+        <form>
+            <label for="ubicacion">Ubicación:</label>
+            <input type="text" id="ubicacion" name="ubicacion">
+
+            <label for="estrato">Estrato:</label>
+            <select id="estrato" name="estrato">
+                <option value="">Cualquier</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <label for="habitaciones">Cantidad de Habitaciones:</label>
+            <input type="number" id="habitaciones" name="habitaciones" min="1" max="10">
+
+            <label for="baños">Cantidad de baños:</label>
+            <input type="number" id="baños" name="baños" min="1" max="10">
+
+            <label for="metros">Metros Cuadrados:</label>
+            <input type="number" id="metros" name="metros" min="1">
+
+            <label>Parqueadero:</label>
+            <input type="radio" id="parqueadero_si" name="parqueadero" value="si">
+            <label for="parqueadero_si">Sí</label>
+            <input type="radio" id="parqueadero_no" name="parqueadero" value="no">
+            <label for="parqueadero_no">No</label>
+
+            <label>Mascotas:</label>
+            <input type="radio" id="mascotas_si" name="mascotas" value="si">
+            <label for="mascotas_si">Sí</label>
+            <input type="radio" id="mascotas_no" name="mascotas" value="no">
+            <label for="mascotas_no">No</label>
+
+            <label>Codeudor:</label>
+            <input type="radio" id="codeudor_si" name="codeudor" value="si">
+            <label for="codeudor_si">Sí</label>
+            <input type="radio" id="codeudor_no" name="codeudor" value="no">
+            <label for="codeudor_no">No</label>
+
+            <label>Finca Raiz:</label>
+            <input type="radio" id="finca-raiz_si" name="finca-raiz" value="si">
+            <label for="finca-raiz_si">Sí</label>
+            <input type="radio" id="finca-raiz_no" name="finca-raiz" value="no">
+            <label for="finca-raiz_no">No</label>
+
+            <label for="precio_min">Precio Mínimo:</label>
+            <input type="number" id="precio_min" name="precio_min" min="0">
+
+            <label for="precio_max">Precio Máximo:</label>
+            <input type="number" id="precio_max" name="precio_max" min="0">
+
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</body>
+
+</html>
