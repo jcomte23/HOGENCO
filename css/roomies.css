@@ -2,27 +2,25 @@
 
 .header_roomies {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 3%;
+    padding: 1% 5% 1% 5%;
 }
 
-.header_roomies {
-    align-items: center;
-    justify-content: center;
+.header__navbar{
     display: flex;
+    justify-content: end;
 }
 
-.header_roomies h1{
-    text-align: center;
-}
-
-.navbar {
-    justify-content: space-evenly;
+.title{
+    width: 40%;
+    font-size: 48px;
+    line-height: 1.1;
 }
 
 .main {
-    width: 100%;
+    padding: 1% 5% 1% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,26 +29,117 @@
 
 .container_roomie {
     width: 100%;
-    max-width: 1100px;
     padding: 20px;
     display: flex;
+    gap: 5%;
 }
 
 .card {
-    width: 50%;
-    margin: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1%;
+    text-align: center;
 }
 
 .rounded-image {
-    width: 200px;
+    width: 100%;
     border-radius: 50%;
 }
 
-.card a {
-    color: rgb(255, 85, 0);
-    border: 2;
-    margin-top: 20px;
+.card a button {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para tablets en modo retrato */
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    
+    .navbar{
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    .title{
+        margin-top: 3%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container_roomie{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 70%;
+    }
+
+    .title{
+        margin-top: 1%;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Estilos para pantallas de escritorio y tablets en modo paisaje */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .navbar {
+        width: 50%;
+    }
+    
+    .title{
+        font-size: 40px;
+    }
+
+    .card a button {
+        font-size: 15px;
+    }
+}
+
+/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
+@media screen and (min-width: 1920px) {
+    body{
+        font-size: 25px;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+
+    .card a button {
+        font-size: 25px;
+    }
 }
