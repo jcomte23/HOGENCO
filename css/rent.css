@@ -54,9 +54,22 @@
 
 .card__info{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+
 }
+
+.features{
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    gap: 5px;
+}
+
+figcaption p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
 .price{
     margin-top: 3%;
 }
@@ -99,10 +112,6 @@
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* body{
-        background-color: yellow;
-    } */
-
     .header__navbar{
         justify-content: center;
     }
@@ -115,7 +124,12 @@
         margin-top: 1%;
         width: 100%;
         text-align: center;
-    }    
+    }
+    
+    /* .card__info{
+        flex-direction: row;
+        justify-content: start;
+    } */
 }
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
