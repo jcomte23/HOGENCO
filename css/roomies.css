@@ -2,26 +2,26 @@
 
 .header_roomies {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 3%;
+    padding: 1% 5% 1% 5%;
 }
 
-.header_roomies {
-    align-items: center;
-    justify-content: center;
+.header__navbar{
     display: flex;
+    justify-content: end;
 }
 
-.header_roomies h1{
-    text-align: center;
+.title{
+    width: 40%;
+    font-size: 48px;
+    line-height: 1.1;
 }
 
-.navbar {
-    justify-content: space-evenly;
-}
 
 .main {
+    padding: 1% 5% 1% 5%;
     width: 100%;
     display: flex;
     justify-content: center;
