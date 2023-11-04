@@ -51,5 +51,80 @@ body{
 
 .main__logo img{
     width: 40%;
+}
 
+/* Estilos para tablets en modo retrato */
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+    
+    .header figure {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a:first-child {
+        margin-left: 0px;
+    }
+
+    .main{
+        flex-direction: column-reverse;
+    }
+
+    .main__message{
+        width: 100%;
+    }
+
+    .main__logo{
+        width: 100%;
+    }
+
+    .main__logo img{
+        width: 70%;
+    }
+}
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 60%;
+    }
+}
+
+/* Estilos para pantallas de escritorio y tablets en modo paisaje */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        width: 70%;
+    }
+}
+
+/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
+@media screen and (min-width: 1920px) {
+    body{
+        font-size: 30px;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+    .main{
+        padding: 8% 4% 8% 4%;
+    }
 }
