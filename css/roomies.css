@@ -56,3 +56,90 @@
     padding-bottom: 5px;
     cursor: pointer;
 }
+
+/* Estilos para tablets en modo retrato */
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    
+    .navbar{
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    .title{
+        margin-top: 3%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container_roomie{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 70%;
+    }
+
+    .title{
+        margin-top: 1%;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Estilos para pantallas de escritorio y tablets en modo paisaje */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .navbar {
+        width: 50%;
+    }
+    
+    .title{
+        font-size: 40px;
+    }
+
+    .card a button {
+        font-size: 15px;
+    }
+}
+
+/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
+@media screen and (min-width: 1920px) {
+    body{
+        font-size: 25px;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+
+    .card a button {
+        font-size: 25px;
+    }
+}
