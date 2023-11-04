@@ -4,7 +4,7 @@
     margin-top: 3%;
     display: flex;
     flex-direction: column;
-    padding: 1% 5% 1% 8%;
+    padding: 1% 5% 1% 5%;
 }
 
 .header__navbar{
@@ -24,13 +24,13 @@
 }
 
 .main{
-    padding: 1% 5% 1% 8%;
+    padding: 1% 5% 1% 5%;
 }
 
 .main__section{
     display: flex;
-    flex-direction: row;
-    gap: 5%;
+    justify-content: space-between;
+    gap: 4%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -54,9 +54,21 @@
 
 .card__info{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
+
+.features{
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    gap: 5px;
+}
+
+figcaption p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
 .price{
     margin-top: 3%;
 }
@@ -64,96 +76,105 @@
 
 
 /* Estilos para tablets en modo retrato */
-/* @media screen and (min-width: 100px) and (max-width: 767px) {
-    body{
-        background-color: blue;
-    }
-
+@media screen and (min-width: 100px) and (max-width: 767px) {
     .header {
         flex-direction: column;
         width: 100%;
+        margin-bottom: 3%;
     }
     
-    .header figure {
-        width: 80%;
-    }
-
-    .navbar a:first-child {
-        margin-left: 0px;
-    }
-
-    .navbar {
+    .navbar{
         width: 100%;
-        margin-top: 5%;
-        margin-right: 0px;
-        padding-left: 15px;
-        padding-right: 15px;  
+    }
+    
+    .title{
+        margin-top: 3%;
+        text-align: center;
+        width: 100%;
     }
 
-    .section {
-        margin: 30% 2% 30% 2%;
+    .main{
+        padding: 1% 5% 1% 5%;
     }
-} */
+
+    .main__section{
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .card{
+        max-width: 700px;
+    }
+
+    .main__section article{
+        margin-bottom: 3%;
+
+    }
+}
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
-/* @media screen and (min-width: 768px) and (max-width: 991px) {
-    .header figure {
-        width: 20%;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
     }
 
     .navbar {
         width: 70%;
     }
 
-    .section {
-        margin: 15% 20% 15% 20%;
+    .title{
+        margin-top: 1%;
+        width: 100%;
+        text-align: center;
     }
-} */
+}
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
-/* @media screen and (min-width: 992px) and (max-width: 1199px) {
-    .header figure {
-        width: 30%;
-    }
-
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar {
         width: 60%;
     }
-
-    .section {
-        margin: 15% 20% 15% 20%;
-    }
-} */
+}
 
 /* Estilos para pantallas grandes y televisores */
-/* @media screen and (min-width: 1200px) and (max-width: 1919px) {
-    .header figure {
-        width: 30%;
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .main__section{
+        gap: 4%;
     }
 
-    .navbar {
-        width: 45%;
+    .card{
+        max-width: 800px;
     }
-} */
+}
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-/* @media screen and (min-width: 1920px) {
-    .header figure {
-        width: 30%;
+@media screen and (min-width: 1920px) {
+    body{
+        font-size: 25px;
     }
 
     .navbar {
-        width: 45%;
+        width: 50%;
     }
 
-    .section__message {
-        padding-top: 10%;
-        padding-bottom: 10%;
+    .title{
+        font-size: 70px;
     }
 
-    .section__button button {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 40px;
+    .main__section{
+        gap: 4%;
     }
-} */
+    
+    .main__section article{
+        width: 33.3%;
+    }
+
+    .card{
+        max-width: 800px;
+        font-size: 25px;
+    }
+
+    .features{
+        font-size: 25px;
+    }
+}
