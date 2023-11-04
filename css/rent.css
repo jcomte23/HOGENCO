@@ -4,7 +4,7 @@
     margin-top: 3%;
     display: flex;
     flex-direction: column;
-    padding: 1% 5% 1% 8%;
+    padding: 1% 5% 1% 5%;
 }
 
 .header__navbar{
@@ -24,13 +24,13 @@
 }
 
 .main{
-    padding: 1% 5% 1% 8%;
+    padding: 1% 5% 1% 5%;
 }
 
 .main__section{
     display: flex;
-    flex-direction: row;
-    gap: 5%;
+    justify-content: space-between;
+    gap: 4%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -55,7 +55,6 @@
 .card__info{
     display: flex;
     flex-direction: column;
-
 }
 
 .features{
@@ -81,6 +80,7 @@ figcaption p{
     .header {
         flex-direction: column;
         width: 100%;
+        margin-bottom: 3%;
     }
     
     .navbar{
@@ -88,6 +88,8 @@ figcaption p{
     }
     
     .title{
+        margin-top: 3%;
+        text-align: center;
         width: 100%;
     }
 
@@ -101,7 +103,7 @@ figcaption p{
     }
 
     .card{
-        max-width: 600px;
+        max-width: 700px;
     }
 
     .main__section article{
@@ -125,57 +127,54 @@ figcaption p{
         width: 100%;
         text-align: center;
     }
-    
-    /* .card__info{
-        flex-direction: row;
-        justify-content: start;
-    } */
 }
 
 /* Estilos para pantallas de escritorio y tablets en modo paisaje */
-/* @media screen and (min-width: 992px) and (max-width: 1199px) {
-    .header figure {
-        width: 30%;
-    }
-
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar {
         width: 60%;
     }
-
-    .section {
-        margin: 15% 20% 15% 20%;
-    }
-} */
+}
 
 /* Estilos para pantallas grandes y televisores */
-/* @media screen and (min-width: 1200px) and (max-width: 1919px) {
-    .header figure {
-        width: 30%;
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .main__section{
+        gap: 4%;
     }
 
-    .navbar {
-        width: 45%;
+    .card{
+        max-width: 800px;
     }
-} */
+}
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
-/* @media screen and (min-width: 1920px) {
-    .header figure {
-        width: 30%;
+@media screen and (min-width: 1920px) {
+    body{
+        font-size: 25px;
     }
 
     .navbar {
-        width: 45%;
+        width: 50%;
     }
 
-    .section__message {
-        padding-top: 10%;
-        padding-bottom: 10%;
+    .title{
+        font-size: 70px;
     }
 
-    .section__button button {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 40px;
+    .main__section{
+        gap: 4%;
     }
-} */
+    
+    .main__section article{
+        width: 33.3%;
+    }
+
+    .card{
+        max-width: 800px;
+        font-size: 25px;
+    }
+
+    .features{
+        font-size: 25px;
+    }
+}
