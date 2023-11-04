@@ -2,52 +2,28 @@
 
 body{
     background-image: url('../img/about-background.webp');
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 .header {
-    margin-top: 1%;
+    padding: 4% 4% 0 4%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .header figure {
-    padding-left: 2%;
+    width: 20%;
 }
 
 .header figure img {
-    width: 50%;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    font-size: 20px;
-    margin-right: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: var(--gray-dark);
-    border-radius: 50px;
-}
-
-.navbar a {
-    color: var(--white);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar a:hover, .navbar .active {
-    color: var(--primary);
+    width: 100%;
 }
 
 .main{
+    padding: 4% 4% 4% 4%;
     display: flex;
     flex-direction: row;
     margin-top: 5%;
@@ -62,6 +38,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    text-align: center;
 }
 
 .main__logo{
@@ -74,5 +51,80 @@ body{
 
 .main__logo img{
     width: 40%;
+}
 
+/* Estilos para tablets en modo retrato */
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+    
+    .header figure {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a:first-child {
+        margin-left: 0px;
+    }
+
+    .main{
+        flex-direction: column-reverse;
+    }
+
+    .main__message{
+        width: 100%;
+    }
+
+    .main__logo{
+        width: 100%;
+    }
+
+    .main__logo img{
+        width: 70%;
+    }
+}
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 60%;
+    }
+}
+
+/* Estilos para pantallas de escritorio y tablets en modo paisaje */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        width: 70%;
+    }
+}
+
+/* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
+@media screen and (min-width: 1920px) {
+    body{
+        font-size: 30px;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+    .main{
+        padding: 8% 4% 8% 4%;
+    }
 }
