@@ -1,6 +1,6 @@
 @import url("app.css");
 
-body{
+body {
     background-image: url('../img/filter-background.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -23,48 +23,48 @@ body{
     width: 100%;
 }
 
-.main{
+.main {
     padding: 4% 4% 4% 4%;
     background-color: var(--black-light);
 }
 
-.title{
+.title {
     width: 30%;
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 2%;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 55%;
 }
 
-form span{
+form span {
     font-size: 20px;
     margin-bottom: 1%;
 }
 
 .form-group {
-    display: flex; 
+    display: flex;
 }
 
 .btn-check {
-    display: none; 
+    display: none;
 }
 
 .btn {
     display: inline-block;
     cursor: pointer;
     width: 100%;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     background-color: var(--white);
     color: var(--black);
     text-align: center;
 }
 
-#primero{
+#primero {
     border-radius: 25px 0 0 25px;
 }
 
@@ -72,37 +72,92 @@ form span{
     border-radius: 0 25px 25px 0;
 }
 
-.btn-check:checked + .btn {
-    background-color: var(--primary); 
-    color: var(--white); 
+.btn-check:checked+.btn {
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 
-.form-group__preci{
+.form-group__preci {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1%;
 }
 
-.form-group__preci span{
+.form-group__preci span {
     color: var(--primary);
 }
 
-.form-group__preci input{
-    padding: 10px 15px; 
+.form-group__preci input {
+    padding: 10px 15px;
     border-radius: 25px;
 }
 
-.group__localitation{
+.group__localitation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1%;
 }
 
-.form-group__localitation input{
-    padding: 10px 15px; 
+.form-group__localitation input {
+    padding: 10px 15px;
     border-radius: 25px;
 }
 
+.toggle-switch {
+    display: inline-block;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-inner {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.3s;
+}
+
+.toggle-switch-on {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #0f0;
+    font-weight: bold;
+    display: none;
+}
+
+.toggle-switch-off {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #f00;
+    font-weight: bold;
+}
+
+.hidden-checkbox:checked + .toggle-label .toggle-inner {
+    transform: translateX(30px);
+}
+
+.hidden-checkbox:checked + .toggle-label .toggle-switch-on {
+    display: block;
+}
+
+.hidden-checkbox:checked + .toggle-label .toggle-switch-off {
+    display: none;
+}
