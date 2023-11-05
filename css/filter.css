@@ -1,0 +1,29 @@
+@import url("app.css");
+
+body{
+    background-image: url('../img/filter-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header {
+    padding: 4% 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header figure {
+    width: 20%;
+}
+
+.header figure img {
+    width: 100%;
+}
+
+.main{
+    padding: 4% 4% 4% 4%;
+    background-color: var(--black-light);
+}
