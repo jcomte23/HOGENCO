@@ -43,7 +43,7 @@
             <p>Find your <strong>perfect home</strong></p>
         </div>
         <form>
-            <h3>Type of rental</h3>
+            <span>Type of rental</span>
             <div class="form-group">
                 <input type="radio" class="btn-check" name="options-base" id="any" autocomplete="off" checked>
                 <label class="btn" id="primero" for="any">Any type</label>
@@ -54,13 +54,18 @@
                 <input type="radio" class="btn-check" name="options-base" id="room" autocomplete="off">
                 <label class="btn" for="room">Room</label>
             </div>
-
+            <br>
+            <span>Price range</span>
+            <div class="form-group__preci">
+                <input type="number" placeholder="min">
+                <span>-</span>
+                <input type="number" placeholder="max">
+            </div>
 
 
             <br>
             <label for="type_of_rental">Price range</label>
-            <input type="text" placeholder="min">
-            <input type="text" placeholder="max">
+            
             <br>
             <label for="frutas">location and district:</label>
             <input list="frutas" id="fruta" name="fruta" />
