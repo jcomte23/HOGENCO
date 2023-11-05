@@ -59,8 +59,8 @@ form{
     text-align: center;
 }
 
-.btn:first-child {
-    border-radius: 25px 0 0 25px ;
+#primero{
+    border-radius: 25px 0 0 25px;
 }
 
 .btn:last-child {
@@ -71,3 +71,5 @@ form{
     background-color: var(--primary); 
     color: var(--white); 
 }
+
+
