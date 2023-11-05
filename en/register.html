@@ -11,7 +11,7 @@
     <meta name="sitedomain" content="https://hogenco.com/rent" />
     <meta name="organization" content="hogenco" />
     <meta name="author" content="Javier Cómbita Téllez" />
-    <meta name="author" content="Darwin David Mosquera Andrade" />
+    <meta name="author" content="Darwing David Mosquera Andrade" />
     <meta name="author" content="Ken Alexander Castro Penagosz" />
     <meta name="designer" content="Ken Alexander Castro Penagos" />
     <meta name="designer" content="Darwin David Mosquera Andrade" />
@@ -25,13 +25,13 @@
 </head>
 
 <body>
+    <header class="header">
+        <figure>
+            <img src="../img/logo-horizontal.webp" alt="Logo Hogenco">
+        </figure>
+    </header>
     <main class="main">
         <section class="main__left">
-            <header class="header">
-                <figure>
-                    <img src="../img/logo-horizontal.webp" alt="Logo Hogenco">
-                </figure>
-            </header>
             <article class="article">
                 <h1>Sign up to get started</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur odio nostrum, similique sunt
@@ -39,23 +39,27 @@
                     facilis odio laudantium!
                 </p>
             </article>
-
         </section>
-        <section class="main__right" >
+        <section class="main__right">
             <form action="rent.html">
-                <h1>login-register</h1>
-                <input type="text" placeholder="Name" name="name">
-                <input type="email" placeholder="E-mail" name="email">
-                <input type="password" placeholder="Password" name="password">
-                <input type="password" placeholder="Confirm password" name="confirm_password">
+
+                <button class="title">Registration Form</button>
+
+                <section class="form-inputs">
+                    <input type="text" placeholder="Name" name="name">
+                    <input type="email" placeholder="E-mail" name="email">
+                    <input type="password" placeholder="Password" name="password">
+                    <input type="password" placeholder="Confirm password" name="confirm_password">
+                </section>
                 <div>
-                    <input type="checkbox" name="termines" id="termines">
+                    <input type="radio" name="termines" id="termines">
                     <span>I have read and approve the User Agreement</span>
                 </div>
                 <button type="submit">Register</button>
             </form>
         </section>
     </main>
+
 </body>
 
 </html>

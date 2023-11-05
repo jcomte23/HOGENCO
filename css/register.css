@@ -1,21 +1,21 @@
 @import url("app.css");
 
-body{
+body {
     background-image: url('../img/register-background.webp');
     background-size: cover;
 }
 
-.main{
+.main {
     display: flex;
 }
 
-.main__left{
+.main__left {
     width: 50%;
     padding: 60px;
 }
 
 .header {
-    margin-top: 1%;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,19 +28,26 @@ body{
 
 .header figure img {
     width: 50%;
+    width: 300px;
 }
 
-.article{
+.article {
     margin-top: 10%;
     color: var(--white);
 }
 
-.article h1{
+.article h1 {
     font-size: 50px;
 }
 
-.main__right{
+.article input {
+    border-radius: 50%;
+}
+
+
+.main__right {
     width: 50%;
+    padding: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +55,8 @@ body{
     color: white;
 }
 
-.main__right form{
+
+.main__right form {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
@@ -57,4 +65,25 @@ body{
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.form-inputs input {
+    width: 100%;
+    display: flex;
+    border-radius: 30px;
+    margin-top: 16px;
+    text-align: center;
+
+}
+
+span {
+    font-size: small;
+}
+
+button {
+    border-radius: 30px;
+    background-color: orangered;
+    margin-top: 16px;
+    color: aliceblue;
+
 }
