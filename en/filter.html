@@ -33,13 +33,63 @@
             <a href="../index.html" class="active">Home</a>
             <a href="rent.html">Rent</a>
             <a href="roomies.html">Roomies</a>
-            <a href="about.html" >About us</a>
+            <a href="about.html">About us</a>
             <a href="register.html" target="_blank">Login/register</a>
         </nav>
     </header>
 
     <main class="main">
-        <h1>hola mundo</h1>
+        <div class="title">
+            <p>Find your <strong>perfect home</strong></p>
+        </div>
+        <form>
+            <h3>Type of rental</h3>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-base" id="any" autocomplete="off" checked>
+                <label class="btn" for="any">Any type</label>
+
+                <input type="radio" class="btn-check" name="options-base" id="home" autocomplete="off">
+                <label class="btn" for="home">Home</label>
+
+                <input type="radio" class="btn-check" name="options-base" id="room" autocomplete="off">
+                <label class="btn" for="room">Room</label>
+            </div>
+
+
+
+            <br>
+            <label for="type_of_rental">Price range</label>
+            <input type="text" placeholder="min">
+            <input type="text" placeholder="max">
+            <br>
+            <label for="frutas">location and district:</label>
+            <input list="frutas" id="fruta" name="fruta" />
+            <br>
+            <datalist id="frutas">
+                <option value="Manzana"></option>
+                <option value="Banana"></option>
+                <option value="Naranja"></option>
+                <option value="Uva"></option>
+                <option value="Pera"></option>
+            </datalist>
+            <label for="type_of_rental">Cosigner/Guarantor</label>
+            <input type="radio" id="opcion1" name="opcion">
+            <input type="radio" id="opcion2" name="opcion">
+            <fieldset>
+                <legend>Specifications</legend>
+                <label for="bedrooms">Bedrooms</label>
+                <input type="number" name="bedrooms">
+                <label for="type_of_rental">Parking lot</label>
+                <input type="radio" id="opcion1" name="opcion">
+                <input type="radio" id="opcion2" name="opcion">
+                <label for="Bathrooms">Bathrooms</label>
+                <input type="number" name="Bathrooms">
+                <label for="type_of_rental">Pets allowed</label>
+                <input type="radio" id="opcion1" name="opcion">
+                <input type="radio" id="opcion2" name="opcion">
+
+            </fieldset>
+        </form>
 
     </main>
 

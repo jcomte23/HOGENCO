@@ -9,7 +9,7 @@ body{
 }
 
 .header {
-    padding: 4% 4% 0 4%;
+    padding: 4% 4% 7% 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,4 +26,48 @@ body{
 .main{
     padding: 4% 4% 4% 4%;
     background-color: var(--black-light);
+}
+
+.title{
+    width: 30%;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 2%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.form-group {
+    display: flex; 
+}
+
+.btn-check {
+    display: none; 
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px 10px; 
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+}
+
+.btn:first-child {
+    border-radius: 25px 0 0 25px ;
+}
+
+.btn:last-child {
+    border-radius: 0 25px 25px 0;
+}
+
+.btn-check:checked + .btn {
+    background-color: var(--primary); 
+    color: var(--white); 
 }
