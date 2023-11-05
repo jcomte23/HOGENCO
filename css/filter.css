@@ -38,7 +38,7 @@ body{
 form{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 55%;
 }
 
 form span{
@@ -92,6 +92,17 @@ form span{
 .form-group__preci input{
     padding: 10px 15px; 
     border-radius: 25px;
+}
 
+.group__localitation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+}
+
+.form-group__localitation input{
+    padding: 10px 15px; 
+    border-radius: 25px;
 }
 
