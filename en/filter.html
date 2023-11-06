@@ -49,7 +49,7 @@
             <p>Find your <strong>perfect home</strong></p>
         </div>
         <form>
-            <section class="form__left uno">
+            <section class="form__left">
                 <legend>Type of rental</legend>
                 <div class="form__type">
                     <input type="radio" class="btn-check" name="options-type" id="any" autocomplete="off" checked>
@@ -76,8 +76,8 @@
                 </div>
             </section>
 
-            <section class="form_right dos">
-                <div class="switch__multiple uno">
+            <section class="form_right">
+                <div class="switch__multiple">
                     <legend>Bedrooms</legend>
                     <div class="form-group">
                         <input type="radio" class="btn-check" name="options-bedrooms" id="any_bedrooms"
@@ -104,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="switch__multiple uno">
+                <div class="switch__multiple">
                     <legend>Bathrooms</legend>
                     <div class="form-group">
                         <input type="radio" class="btn-check" name="options-bathrooms" id="any_bathrooms"
@@ -137,41 +137,44 @@
                     </div>
                 </div>
 
-                <div class="switch uno">
-                    <legend>Cosigner/Guarantor</legend>
-                    <div class="form-group">
-                        <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off"
-                            checked>
-                        <label class="btn" id="primero" for="yes">YES</label>
+                <article class="switch__binari">
+                    <div class="switch">
+                        <legend>Guarantor</legend>
+                        <div class="form-group">
+                            <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off"
+                                checked>
+                            <label class="btn" id="primero" for="yes">YES</label>
 
-                        <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
-                        <label class="btn" for="no">NO</label>
+                            <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
+                            <label class="btn" for="no">NO</label>
+                        </div>
                     </div>
-                </div>
 
-                <div class="switch uno">
-                    <legend>Parking lot</legend>
-                    <div class="form-group">
-                        <input type="radio" class="btn-check" name="options-parking" id="yes-parking" autocomplete="off"
-                            checked>
-                        <label class="btn" id="primero" for="yes-parking">YES</label>
+                    <div class="switch">
+                        <legend>Parking lot</legend>
+                        <div class="form-group">
+                            <input type="radio" class="btn-check" name="options-parking" id="yes-parking"
+                                autocomplete="off" checked>
+                            <label class="btn" id="primero" for="yes-parking">YES</label>
 
-                        <input type="radio" class="btn-check" name="options-parking" id="no-parking" autocomplete="off">
-                        <label class="btn" for="no-parking">NO</label>
+                            <input type="radio" class="btn-check" name="options-parking" id="no-parking"
+                                autocomplete="off">
+                            <label class="btn" for="no-parking">NO</label>
+                        </div>
                     </div>
-                </div>
 
-                <div class="switch uno">
-                    <legend>Pets allowed</legend>
-                    <div class="form-group">
-                        <input type="radio" class="btn-check" name="options-pets" id="yes-pets" autocomplete="off"
-                            checked>
-                        <label class="btn" id="primero" for="yes-pets">YES</label>
+                    <div class="switch ">
+                        <legend>Pets allowed</legend>
+                        <div class="form-group">
+                            <input type="radio" class="btn-check" name="options-pets" id="yes-pets" autocomplete="off"
+                                checked>
+                            <label class="btn" id="primero" for="yes-pets">YES</label>
 
-                        <input type="radio" class="btn-check" name="options-pets" id="no-pets" autocomplete="off">
-                        <label class="btn" for="no-pets">NO</label>
+                            <input type="radio" class="btn-check" name="options-pets" id="no-pets" autocomplete="off">
+                            <label class="btn" for="no-pets">NO</label>
+                        </div>
                     </div>
-                </div>
+                </article>
             </section>
         </form>
         <a href="rent.html"><button type="button">Filter now!</button></a>

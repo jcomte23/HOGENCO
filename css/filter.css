@@ -124,6 +124,14 @@ legend {
     padding-right: 20%;
 }
 
+.switch__binari{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .btn-check {
     display: none;
 }
