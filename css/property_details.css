@@ -30,6 +30,21 @@
 
 header .navbar{
     width: 100%;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fadeInFromTop 1s ease forwards;
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .main__left figure {
@@ -41,12 +56,28 @@ header .navbar{
 figure img {
     width: 100%;
     border-radius: 20px;
+    
 }
 
 .card__info {
     display: flex;
     align-items: center;
     margin-top: 5%;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fadeInFromBottom 1s ease forwards;
+}
+
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .card__info-roomie {
