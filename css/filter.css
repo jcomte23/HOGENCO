@@ -81,6 +81,7 @@ legend {
 .form__type {
     display: flex;
     width: 75%;
+    margin-bottom: 4%;
 }
 
 .form__price {
@@ -90,6 +91,7 @@ legend {
     justify-content: space-between;
     align-items: center;
     gap: 1%;
+    margin-bottom: 4%;  
 }
 
 .form__price input {
@@ -124,6 +126,7 @@ legend {
 .switch__multiple{
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 4%;
 }
 
 .switch__binari{
