@@ -8,7 +8,7 @@
         content="HOGENCO: We are the best solution for you to find your home or apartment to rent in a faster and reliable way. HOGENCO helps you to simplify the search for your next home and to contribute finding an affordable housing." />
     <meta name="keywords"
         content="affordable, apartment, economic, home, homeowner, house, Housing, platform, properties, reliable, rent, room, roomie, search, share, student, tenant" />
-    <meta name="sitedomain" content="https://hogenco.com/rent" />
+    <meta name="sitedomain" content="https://hogenco.com/en/filter.html" />
     <meta name="organization" content="hogenco" />
     <meta name="author" content="Javier Cómbita Téllez" />
     <meta name="author" content="Darwin David Mosquera Andrade" />
@@ -42,115 +42,128 @@
             <a href="register.html" aria-label="panel user"><i class="bi bi-person-bounding-box"></i></i></a>
         </nav>
     </header>
-    
+
 
     <main class="main">
         <div class="title">
             <p>Find your <strong>perfect home</strong></p>
         </div>
         <form>
-            <legend>Type of rental</legend>
-            <div class="form__type">
-                <input type="radio" class="btn-check" name="options-type" id="any" autocomplete="off" checked>
-                <label class="btn" id="primero" for="any">Any type</label>
+            <section class="form__left uno">
+                <legend>Type of rental</legend>
+                <div class="form__type">
+                    <input type="radio" class="btn-check" name="options-type" id="any" autocomplete="off" checked>
+                    <label class="btn" id="primero" for="any">Any type</label>
 
-                <input type="radio" class="btn-check" name="options-type" id="home" autocomplete="off">
-                <label class="btn" for="home">Home</label>
+                    <input type="radio" class="btn-check" name="options-type" id="home" autocomplete="off">
+                    <label class="btn" for="home">Home</label>
 
-                <input type="radio" class="btn-check" name="options-type" id="room" autocomplete="off">
-                <label class="btn" for="room">Room</label>
-            </div>
+                    <input type="radio" class="btn-check" name="options-type" id="room" autocomplete="off">
+                    <label class="btn" for="room">Room</label>
+                </div>
 
-            <legend>Price range</legend>
-            <div class="form__price">
-                <input type="number" placeholder="min">
-                <input type="number" placeholder="max">
-            </div>
+                <legend>Price range</legend>
+                <div class="form__price">
+                    <input type="number" placeholder="min">
+                    <input type="number" placeholder="max">
+                </div>
 
-            <legend>location</legend>
-            <div class="form__location">
-                <input list="departaments" placeholder="department">
-                <input list="cities" placeholder="city">
-                <input type="text" placeholder="address">
-            </div>
+                <legend>location</legend>
+                <div class="form__location">
+                    <input list="departaments" placeholder="department">
+                    <input list="cities" placeholder="city">
+                    <input type="text" placeholder="address">
+                </div>
+            </section>
 
-            <legend>Bedrooms</legend>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-bedrooms" id="any_bedrooms" autocomplete="off" checked>
-                <label class="btn" id="primero" for="any_bedrooms">Any</label>
+            <section class="form_right dos">
+                <legend>Bedrooms</legend>
+                <div class="form-group">
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="any_bedrooms" autocomplete="off"
+                        checked>
+                    <label class="btn" id="primero" for="any_bedrooms">Any</label>
 
-                <input type="radio" class="btn-check" name="options-bedrooms" id="uno" autocomplete="off">
-                <label class="btn" for="uno">1</label>
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="uno" autocomplete="off">
+                    <label class="btn" for="uno">1</label>
 
-                <input type="radio" class="btn-check" name="options-bedrooms" id="dos" autocomplete="off">
-                <label class="btn" for="dos">2</label>
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="dos" autocomplete="off">
+                    <label class="btn" for="dos">2</label>
 
-                <input type="radio" class="btn-check" name="options-bedrooms" id="tres" autocomplete="off">
-                <label class="btn" for="tres">3</label>
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="tres" autocomplete="off">
+                    <label class="btn" for="tres">3</label>
 
-                <input type="radio" class="btn-check" name="options-bedrooms" id="cuatro" autocomplete="off">
-                <label class="btn" for="cuatro">4</label>
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="cuatro" autocomplete="off">
+                    <label class="btn" for="cuatro">4</label>
 
-                <input type="radio" class="btn-check" name="options-bedrooms" id="cinco" autocomplete="off">
-                <label class="btn" for="cinco">5</label>
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="cinco" autocomplete="off">
+                    <label class="btn" for="cinco">5</label>
 
-                <input type="radio" class="btn-check" name="options-bedrooms" id="more" autocomplete="off">
-                <label class="btn" for="more">More</label>
-            </div>
+                    <input type="radio" class="btn-check" name="options-bedrooms" id="more" autocomplete="off">
+                    <label class="btn" for="more">More</label>
+                </div>
 
-            <legend>Bathrooms</legend>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-bathrooms" id="any_bathrooms" autocomplete="off" checked>
-                <label class="btn" id="primero" for="any_bathrooms">Any</label>
+                <legend>Bathrooms</legend>
+                <div class="form-group">
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="any_bathrooms" autocomplete="off"
+                        checked>
+                    <label class="btn" id="primero" for="any_bathrooms">Any</label>
 
-                <input type="radio" class="btn-check" name="options-bathrooms" id="uno-bathrooms" autocomplete="off">
-                <label class="btn" for="uno-bathrooms">1</label>
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="uno-bathrooms"
+                        autocomplete="off">
+                    <label class="btn" for="uno-bathrooms">1</label>
 
-                <input type="radio" class="btn-check" name="options-bathrooms" id="dos-bathrooms" autocomplete="off">
-                <label class="btn" for="dos-bathrooms">2</label>
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="dos-bathrooms"
+                        autocomplete="off">
+                    <label class="btn" for="dos-bathrooms">2</label>
 
-                <input type="radio" class="btn-check" name="options-bathrooms" id="tres-bathrooms" autocomplete="off">
-                <label class="btn" for="tres-bathrooms">3</label>
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="tres-bathrooms"
+                        autocomplete="off">
+                    <label class="btn" for="tres-bathrooms">3</label>
 
-                <input type="radio" class="btn-check" name="options-bathrooms" id="cuatro-bathrooms" autocomplete="off">
-                <label class="btn" for="cuatro-bathrooms">4</label>
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="cuatro-bathrooms"
+                        autocomplete="off">
+                    <label class="btn" for="cuatro-bathrooms">4</label>
 
-                <input type="radio" class="btn-check" name="options-bathrooms" id="cinco-bathrooms" autocomplete="off">
-                <label class="btn" for="cinco-bathrooms">5</label>
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="cinco-bathrooms"
+                        autocomplete="off">
+                    <label class="btn" for="cinco-bathrooms">5</label>
 
-                <input type="radio" class="btn-check" name="options-bathrooms" id="more-bathrooms" autocomplete="off">
-                <label class="btn" for="more-bathrooms">More</label>
-            </div>
-        
-            <legend>Cosigner/Guarantor</legend>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off" checked>
-                <label class="btn" id="primero" for="yes">YES</label>
+                    <input type="radio" class="btn-check" name="options-bathrooms" id="more-bathrooms"
+                        autocomplete="off">
+                    <label class="btn" for="more-bathrooms">More</label>
+                </div>
 
-                <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
-                <label class="btn" for="no">NO</label>
-            </div>
-            
+                <legend>Cosigner/Guarantor</legend>
+                <div class="form-group">
+                    <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off" checked>
+                    <label class="btn" id="primero" for="yes">YES</label>
 
-            <legend>Parking lot</legend>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-parking" id="yes-parking" autocomplete="off" checked>
-                <label class="btn" id="primero" for="yes-parking">YES</label>
+                    <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
+                    <label class="btn" for="no">NO</label>
+                </div>
 
-                <input type="radio" class="btn-check" name="options-parking" id="no-parking" autocomplete="off">
-                <label class="btn" for="no-parking">NO</label>
-            </div>
 
-            <legend>Pets allowed</legend>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-pets" id="yes-pets" autocomplete="off" checked>
-                <label class="btn" id="primero" for="yes-pets">YES</label>
+                <legend>Parking lot</legend>
+                <div class="form-group">
+                    <input type="radio" class="btn-check" name="options-parking" id="yes-parking" autocomplete="off"
+                        checked>
+                    <label class="btn" id="primero" for="yes-parking">YES</label>
 
-                <input type="radio" class="btn-check" name="options-pets" id="no-pets" autocomplete="off">
-                <label class="btn" for="no-pets">NO</label>
-            </div>
-            <a href="rent.html"><button type="button">Filter now!</button></a>
+                    <input type="radio" class="btn-check" name="options-parking" id="no-parking" autocomplete="off">
+                    <label class="btn" for="no-parking">NO</label>
+                </div>
+
+                <legend>Pets allowed</legend>
+                <div class="form-group">
+                    <input type="radio" class="btn-check" name="options-pets" id="yes-pets" autocomplete="off" checked>
+                    <label class="btn" id="primero" for="yes-pets">YES</label>
+
+                    <input type="radio" class="btn-check" name="options-pets" id="no-pets" autocomplete="off">
+                    <label class="btn" for="no-pets">NO</label>
+                </div>
+            </section>
         </form>
+        <a href="rent.html"><button type="button">Filter now!</button></a>
     </main>
 
 
