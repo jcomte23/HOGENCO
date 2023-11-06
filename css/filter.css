@@ -67,6 +67,7 @@ form {
 
 .form_right {
     width: 50%;
+    text-align: center;
 }
 
 
@@ -118,8 +119,9 @@ legend {
     width: 100%;
 }
 
-.switch{
-    text-align: center;
+.switch__multiple{
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .btn-check {
