@@ -12,10 +12,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fadeInFromTop 1s ease forwards;
 }
 
-.bx {
-    font-size: x-large;
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .header figure {
@@ -25,14 +36,46 @@ body {
 .header figure img {
     width: 65%;
     height: auto;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fadeInFromTop 1s ease forwards;
 }
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .main {
     padding: 4% 4% 10% 4%;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fadeInFromBottom 1s ease forwards;
 }
+
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .section {
     text-align: center;
