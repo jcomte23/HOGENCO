@@ -1,6 +1,6 @@
 @import url("app.css");
 
-body{
+body {
     background-image: url('../img/about-background.webp');
     background-attachment: fixed;
     background-size: cover;
@@ -22,7 +22,7 @@ body{
     width: 100%;
 }
 
-.main{
+.main {
     padding: 4% 4% 4% 4%;
     display: flex;
     flex-direction: row;
@@ -31,17 +31,21 @@ body{
     background-color: var(--white-light);
 }
 
-.main__message{
+.about_title {
+    font-size: 50px;
+    padding-bottom: 16px;
+}
+
+.main__message {
     width: 50%;
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
+    justify-content: left;
+    text-align: justify;
 }
 
-.main__logo{
+.main__logo {
     width: 50%;
     height: 300px;
     display: flex;
@@ -49,8 +53,8 @@ body{
     align-items: center;
 }
 
-.main__logo img{
-    width: 40%;
+.main__logo img {
+    width: 65%;
 }
 
 /* Estilos para tablets en modo retrato */
@@ -58,7 +62,7 @@ body{
     .header {
         flex-direction: column;
     }
-    
+
     .header figure {
         display: none;
     }
@@ -71,26 +75,26 @@ body{
         margin-left: 0px;
     }
 
-    .main{
+    .main {
         flex-direction: column-reverse;
     }
 
-    .main__message{
+    .main__message {
         width: 100%;
     }
 
-    .main__logo{
+    .main__logo {
         width: 100%;
     }
 
-    .main__logo img{
+    .main__logo img {
         width: 70%;
     }
 }
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .header__navbar{
+    .header__navbar {
         justify-content: center;
     }
 
@@ -112,7 +116,7 @@ body{
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
 @media screen and (min-width: 1920px) {
-    body{
+    body {
         font-size: 30px;
     }
 
@@ -124,7 +128,7 @@ body{
         width: 50%;
     }
 
-    .main{
+    .main {
         padding: 8% 4% 8% 4%;
     }
 }

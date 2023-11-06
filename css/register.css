@@ -15,20 +15,29 @@ body {
 }
 
 .header {
+    padding: 4% 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .header {
     margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .header figure {
     padding-left: 2%;
+    width: 50%;
+
 }
 
 .header figure img {
-    width: 50%;
-    width: 300px;
+    width: 65%;
+
 }
 
 .article {
@@ -73,8 +82,8 @@ body {
     border-radius: 30px;
     margin-top: 16px;
     text-align: center;
-font-size: medium;
-
+    font-size: medium;
+    padding: 5px;
 }
 
 span {
@@ -86,6 +95,17 @@ button {
     background-color: orangered;
     margin-top: 16px;
     color: aliceblue;
-    font-size: larger;
-
+    font-size: large;
+    padding: 5px;
+    align-self: center;
 }
+
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header figure {
+        width: 80%;
+    }
