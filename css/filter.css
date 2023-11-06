@@ -44,10 +44,12 @@ video {
 }
 
 .title {
-    width: 30%;
+    width: 100%;
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 2%;
+    text-align: center;
+
 }
 
 form {
@@ -159,13 +161,16 @@ legend {
     color: var(--white);
 }
 
-form a {
-    width: 40%;
-    margin-top: 5%;
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
 }
 
-form a button {
-    width: 100%;
+
+.filter a button {
+    width: 150%;
     background-color: var(--primary);
     color: var(--white);
     border-radius: 50px;
