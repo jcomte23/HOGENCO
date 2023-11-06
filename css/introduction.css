@@ -14,12 +14,17 @@ body {
     align-items: center;
 }
 
+.bx {
+    font-size: x-large;
+}
+
 .header figure {
-    width: 20%;
+    padding-left: 2%;
+    width: 100%;
 }
 
 .header figure img {
-    width: 100%;
+    width: 65%;
 }
 
 .main {
@@ -79,7 +84,7 @@ body {
     .header {
         flex-direction: column;
     }
-    
+
     .header figure {
         width: 80%;
     }
@@ -93,7 +98,7 @@ body {
         margin-top: 5%;
         margin-right: 0px;
         padding-left: 15px;
-        padding-right: 15px;  
+        padding-right: 15px;
     }
 
     .section {
