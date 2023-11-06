@@ -80,6 +80,16 @@ figure img {
     color: var(--primary);
 }
 
+.card a button {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
 .details__info {
     display: flex;
     justify-content: space-between;
