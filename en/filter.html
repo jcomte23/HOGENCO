@@ -31,7 +31,7 @@
     </video>
 
     <header class="header">
-        <figure class="">
+        <figure>
             <img src="../img/logo-horizontal.webp" alt="Logo Hogenco">
         </figure>
         <nav class="navbar">
@@ -49,46 +49,32 @@
             <p>Find your <strong>perfect home</strong></p>
         </div>
         <form>
-            <span>Type of rental</span>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-base" id="any" autocomplete="off" checked>
+            <legend>Type of rental</legend>
+            <div class="form__type">
+                <input type="radio" class="btn-check" name="options-type" id="any" autocomplete="off" checked>
                 <label class="btn" id="primero" for="any">Any type</label>
 
-                <input type="radio" class="btn-check" name="options-base" id="home" autocomplete="off">
+                <input type="radio" class="btn-check" name="options-type" id="home" autocomplete="off">
                 <label class="btn" for="home">Home</label>
 
-                <input type="radio" class="btn-check" name="options-base" id="room" autocomplete="off">
+                <input type="radio" class="btn-check" name="options-type" id="room" autocomplete="off">
                 <label class="btn" for="room">Room</label>
             </div>
 
-            <br>
-            <span>Price range</span>
-            <div class="form-group__preci">
+            <legend>Price range</legend>
+            <div class="form__price">
                 <input type="number" placeholder="min">
-                <span>-</span>
                 <input type="number" placeholder="max">
             </div>
 
-            <br>
-            <span>location</span>
-            <div class="form-group__localitation">
-                <input list="departaments" placeholder="departamento">
-                <input list="cities" placeholder="cities">
-                <input type="text" placeholder="addres">
+            <legend>location</legend>
+            <div class="form__location">
+                <input list="departaments" placeholder="department">
+                <input list="cities" placeholder="city">
+                <input type="text" placeholder="address">
             </div>
 
-            <br>
-            <span>Cosigner/Guarantor</span>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off" checked>
-                <label class="btn" id="primero" for="yes">YES</label>
-
-                <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
-                <label class="btn" for="no">NO</label>
-            </div>
-        
-            <br>
-            <span>Bedrooms</span>
+            <legend>Bedrooms</legend>
             <div class="form-group">
                 <input type="radio" class="btn-check" name="options-bedrooms" id="any_bedrooms" autocomplete="off" checked>
                 <label class="btn" id="primero" for="any_bedrooms">Any</label>
@@ -112,18 +98,7 @@
                 <label class="btn" for="more">More</label>
             </div>
 
-            <br>
-            <span>Parking lot</span>
-            <div class="form-group">
-                <input type="radio" class="btn-check" name="options-parking" id="yes-parking" autocomplete="off" checked>
-                <label class="btn" id="primero" for="yes-parking">YES</label>
-
-                <input type="radio" class="btn-check" name="options-parking" id="no-parking" autocomplete="off">
-                <label class="btn" for="no-parking">NO</label>
-            </div>
-
-            <br>
-            <span>Bathrooms</span>
+            <legend>Bathrooms</legend>
             <div class="form-group">
                 <input type="radio" class="btn-check" name="options-bathrooms" id="any_bathrooms" autocomplete="off" checked>
                 <label class="btn" id="primero" for="any_bathrooms">Any</label>
@@ -146,9 +121,27 @@
                 <input type="radio" class="btn-check" name="options-bathrooms" id="more-bathrooms" autocomplete="off">
                 <label class="btn" for="more-bathrooms">More</label>
             </div>
+        
+            <legend>Cosigner/Guarantor</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off" checked>
+                <label class="btn" id="primero" for="yes">YES</label>
 
-            <br>
-            <span>Pets allowed</span>
+                <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
+                <label class="btn" for="no">NO</label>
+            </div>
+            
+
+            <legend>Parking lot</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-parking" id="yes-parking" autocomplete="off" checked>
+                <label class="btn" id="primero" for="yes-parking">YES</label>
+
+                <input type="radio" class="btn-check" name="options-parking" id="no-parking" autocomplete="off">
+                <label class="btn" for="no-parking">NO</label>
+            </div>
+
+            <legend>Pets allowed</legend>
             <div class="form-group">
                 <input type="radio" class="btn-check" name="options-pets" id="yes-pets" autocomplete="off" checked>
                 <label class="btn" id="primero" for="yes-pets">YES</label>
@@ -156,9 +149,8 @@
                 <input type="radio" class="btn-check" name="options-pets" id="no-pets" autocomplete="off">
                 <label class="btn" for="no-pets">NO</label>
             </div>
-            <a href="rent.html"><button type="button">Contact now!</button></a>
+            <a href="rent.html"><button type="button">Filter now!</button></a>
         </form>
-
     </main>
 
 
