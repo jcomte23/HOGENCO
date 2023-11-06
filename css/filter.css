@@ -1,7 +1,7 @@
 @import url("app.css");
 
 
-body{
+body {
     min-height: 100vh;
     position: relative;
     color: white;
@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-video{
+video {
     position: absolute;
     top: 0;
     left: 0;
@@ -44,19 +44,34 @@ video{
 }
 
 .title {
-    width: 30%;
+    width: 100%;
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 2%;
+    text-align: center;
+
 }
 
 form {
     display: flex;
+    justify-content: space-around;
+    gap: 2%;
+    width: 100%;
+}
+
+.form__left {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
+
+.form_right {
+    width: 50%;
+    text-align: center;
+}
+
 
 legend {
     font-size: 20px;
@@ -65,16 +80,18 @@ legend {
 
 .form__type {
     display: flex;
-    width: 50%;
+    width: 75%;
+    margin-bottom: 4%;
 }
 
 .form__price {
     display: flex;
-    width: 50%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1%;
+    margin-bottom: 4%;  
 }
 
 .form__price input {
@@ -103,7 +120,21 @@ legend {
 
 .form-group {
     display: flex;
-    width: 25%;
+    width: 100%;
+}
+
+.switch__multiple{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 4%;
+}
+
+.switch__binari{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn-check {
@@ -133,13 +164,16 @@ legend {
     color: var(--white);
 }
 
-form a{
-    width: 40%;
-    margin-top: 5%;
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
 }
 
-form a button {
-    width: 100%;
+
+.filter a button {
+    width: 150%;
     background-color: var(--primary);
     color: var(--white);
     border-radius: 50px;
@@ -149,7 +183,7 @@ form a button {
     cursor: pointer;
 }
 
-.footer{
+.footer {
     position: relative;
     z-index: 2;
 }
