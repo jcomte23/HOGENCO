@@ -115,7 +115,7 @@ ul {
     padding: 0 15px;
 }
 
-.footer-col h4 {
+.footer-col h2 {
     font-size: 18px;
     color: #fff;
     text-transform: capitalize;
@@ -124,7 +124,7 @@ ul {
     position: relative;
 }
 
-.footer-col h4::before {
+.footer-col h2::before {
     content: '';
     position: absolute;
     left: 0;
