@@ -53,8 +53,8 @@ body {
     align-items: center;
 }
 
-.main__logo img {
-    width: 65%;
+.main__logo video {
+    width: 80%;
 }
 
 /* Estilos para tablets en modo retrato */
