@@ -1,0 +1,155 @@
+@import url("app.css");
+
+
+body{
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+    padding: 4% 4% 7% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header figure {
+    width: 20%;
+}
+
+.header figure img {
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    z-index: 2;
+    padding: 4% 4% 4% 4%;
+    background-color: var(--black-light);
+    margin-bottom: 2%;
+}
+
+.title {
+    width: 30%;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+legend {
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.form__type {
+    display: flex;
+    width: 50%;
+}
+
+.form__price {
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+}
+
+.form__price input {
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+
+.form__location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+}
+
+.form__location input {
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.form__location input:last-child {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    width: 25%;
+}
+
+.btn-check {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+}
+
+#primero {
+    border-radius: 25px 0 0 25px;
+}
+
+.btn:last-child {
+    border-radius: 0 25px 25px 0;
+}
+
+.btn-check:checked+.btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+form a{
+    width: 40%;
+    margin-top: 5%;
+}
+
+form a button {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    z-index: 2;
+}

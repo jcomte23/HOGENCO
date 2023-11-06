@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HOGENCO: We are the best solution for you to find your home or apartment to rent in a faster and reliable way. HOGENCO helps you to simplify the search for your next home and to contribute finding an affordable housing." />
+    <meta name="keywords"
+        content="affordable, apartment, economic, home, homeowner, house, Housing, platform, properties, reliable, rent, room, roomie, search, share, student, tenant" />
+    <meta name="sitedomain" content="https://hogenco.com/rent" />
+    <meta name="organization" content="hogenco" />
+    <meta name="author" content="Javier Cómbita Téllez" />
+    <meta name="author" content="Darwin David Mosquera Andrade" />
+    <meta name="author" content="Ken Alexander Castro Penagosz" />
+    <meta name="designer" content="Ken Alexander Castro Penagos" />
+    <meta name="designer" content="Darwin David Mosquera Andrade" />
+    <meta name="designer" content="Javier Cómbita Téllez" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/filter.css">
+    <title>Filter</title>
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="../resources/Background-home.mp4" type="video/mp4">
+        <img src="../img/filter-background.webp" alt="Imagen de respaldo">
+    </video>
+
+    <header class="header">
+        <figure>
+            <img src="../img/logo-horizontal.webp" alt="Logo Hogenco">
+        </figure>
+        <nav class="navbar">
+            <a href="../index.html" class="active">Home</a>
+            <a href="rent.html">Rent</a>
+            <a href="roomies.html">Roomies</a>
+            <a href="about.html">About us</a>
+            <a href="register.html" target="_blank">Login/register</a>
+        </nav>
+    </header>
+    
+
+    <main class="main">
+        <div class="title">
+            <p>Find your <strong>perfect home</strong></p>
+        </div>
+        <form>
+            <legend>Type of rental</legend>
+            <div class="form__type">
+                <input type="radio" class="btn-check" name="options-type" id="any" autocomplete="off" checked>
+                <label class="btn" id="primero" for="any">Any type</label>
+
+                <input type="radio" class="btn-check" name="options-type" id="home" autocomplete="off">
+                <label class="btn" for="home">Home</label>
+
+                <input type="radio" class="btn-check" name="options-type" id="room" autocomplete="off">
+                <label class="btn" for="room">Room</label>
+            </div>
+
+            <legend>Price range</legend>
+            <div class="form__price">
+                <input type="number" placeholder="min">
+                <input type="number" placeholder="max">
+            </div>
+
+            <legend>location</legend>
+            <div class="form__location">
+                <input list="departaments" placeholder="department">
+                <input list="cities" placeholder="city">
+                <input type="text" placeholder="address">
+            </div>
+
+            <legend>Bedrooms</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-bedrooms" id="any_bedrooms" autocomplete="off" checked>
+                <label class="btn" id="primero" for="any_bedrooms">Any</label>
+
+                <input type="radio" class="btn-check" name="options-bedrooms" id="uno" autocomplete="off">
+                <label class="btn" for="uno">1</label>
+
+                <input type="radio" class="btn-check" name="options-bedrooms" id="dos" autocomplete="off">
+                <label class="btn" for="dos">2</label>
+
+                <input type="radio" class="btn-check" name="options-bedrooms" id="tres" autocomplete="off">
+                <label class="btn" for="tres">3</label>
+
+                <input type="radio" class="btn-check" name="options-bedrooms" id="cuatro" autocomplete="off">
+                <label class="btn" for="cuatro">4</label>
+
+                <input type="radio" class="btn-check" name="options-bedrooms" id="cinco" autocomplete="off">
+                <label class="btn" for="cinco">5</label>
+
+                <input type="radio" class="btn-check" name="options-bedrooms" id="more" autocomplete="off">
+                <label class="btn" for="more">More</label>
+            </div>
+
+            <legend>Bathrooms</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-bathrooms" id="any_bathrooms" autocomplete="off" checked>
+                <label class="btn" id="primero" for="any_bathrooms">Any</label>
+
+                <input type="radio" class="btn-check" name="options-bathrooms" id="uno-bathrooms" autocomplete="off">
+                <label class="btn" for="uno-bathrooms">1</label>
+
+                <input type="radio" class="btn-check" name="options-bathrooms" id="dos-bathrooms" autocomplete="off">
+                <label class="btn" for="dos-bathrooms">2</label>
+
+                <input type="radio" class="btn-check" name="options-bathrooms" id="tres-bathrooms" autocomplete="off">
+                <label class="btn" for="tres-bathrooms">3</label>
+
+                <input type="radio" class="btn-check" name="options-bathrooms" id="cuatro-bathrooms" autocomplete="off">
+                <label class="btn" for="cuatro-bathrooms">4</label>
+
+                <input type="radio" class="btn-check" name="options-bathrooms" id="cinco-bathrooms" autocomplete="off">
+                <label class="btn" for="cinco-bathrooms">5</label>
+
+                <input type="radio" class="btn-check" name="options-bathrooms" id="more-bathrooms" autocomplete="off">
+                <label class="btn" for="more-bathrooms">More</label>
+            </div>
+        
+            <legend>Cosigner/Guarantor</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-guarantor" id="yes" autocomplete="off" checked>
+                <label class="btn" id="primero" for="yes">YES</label>
+
+                <input type="radio" class="btn-check" name="options-guarantor" id="no" autocomplete="off">
+                <label class="btn" for="no">NO</label>
+            </div>
+            
+
+            <legend>Parking lot</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-parking" id="yes-parking" autocomplete="off" checked>
+                <label class="btn" id="primero" for="yes-parking">YES</label>
+
+                <input type="radio" class="btn-check" name="options-parking" id="no-parking" autocomplete="off">
+                <label class="btn" for="no-parking">NO</label>
+            </div>
+
+            <legend>Pets allowed</legend>
+            <div class="form-group">
+                <input type="radio" class="btn-check" name="options-pets" id="yes-pets" autocomplete="off" checked>
+                <label class="btn" id="primero" for="yes-pets">YES</label>
+
+                <input type="radio" class="btn-check" name="options-pets" id="no-pets" autocomplete="off">
+                <label class="btn" for="no-pets">NO</label>
+            </div>
+            <a href="rent.html"><button type="button">Filter now!</button></a>
+        </form>
+    </main>
+
+
+    <datalist id="departaments">
+        <option value="Amazonas">
+        <option value="Antioquia">
+        <option value="Arauca">
+        <option value="Atlántico">
+        <option value="Bogotá, D.C.">
+        <option value="Bolívar">
+        <option value="Boyacá">
+        <option value="Caldas">
+        <option value="Caquetá">
+        <option value="Casanare">
+        <option value="Cauca">
+        <option value="Cesar">
+        <option value="Chocó">
+        <option value="Córdoba">
+        <option value="Cundinamarca">
+        <option value="Guainía">
+        <option value="Guaviare">
+        <option value="Huila">
+        <option value="La Guajira">
+        <option value="Magdalena">
+        <option value="Meta">
+        <option value="Nariño">
+        <option value="Norte de Santander">
+        <option value="Putumayo">
+        <option value="Quindío">
+        <option value="Risaralda">
+        <option value="San Andrés y Providencia">
+        <option value="Santander">
+        <option value="Sucre">
+        <option value="Tolima">
+        <option value="Valle del Cauca">
+        <option value="Vaupés">
+        <option value="Vichada">
+    </datalist>
+
+
+    <datalist id="cities">
+        <option value="Leticia">
+        <option value="Medellín">
+        <option value="Arauca">
+        <option value="Barranquilla">
+        <option value="Bogotá">
+        <option value="Cartagena">
+        <option value="Tunja">
+        <option value="Manizales">
+        <option value="Florencia">
+        <option value="Yopal">
+        <option value="Popayán">
+        <option value="Valledupar">
+        <option value="Quibdó">
+        <option value="Montería">
+        <option value="Soacha">
+        <option value="Inírida">
+        <option value="San José del Guaviare">
+        <option value="Neiva">
+        <option value="Riohacha">
+        <option value="Santa Marta">
+        <option value="Villavicencio">
+        <option value="Pasto">
+        <option value="Cúcuta">
+        <option value="Mocoa">
+        <option value="Armenia">
+        <option value="Pereira">
+        <option value="San Andrés">
+        <option value="Bucaramanga">
+        <option value="Sincelejo">
+        <option value="Ibagué">
+        <option value="Cali">
+        <option value="Mitú">
+        <option value="Puerto Carreño">
+    </datalist>
+
+
+    <footer class="footer">
+        <figure class="footer__logo">
+            <img src="../img/logo-horizontal.webp" alt="Logo Hogenco">
+        </figure>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company rules</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Company services</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Register now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Need help?</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Complains</a></li>
+                        <li><a href="#">Account errors</a></li>
+                        <li><a href="#">Delete account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact information</h4>
+                    <ul>
+                        <li><a href="#">Private number</a></li>
+                        <li><a href="#">Request</a></li>
+                        <li><a href="#">Email us</a></li>
+                        <li><a href="#">Social media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
