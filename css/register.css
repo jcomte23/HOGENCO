@@ -32,17 +32,48 @@ body {
 .header figure {
     padding-left: 2%;
     width: 50%;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fadeInFromTop 1s ease forwards;
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
 }
 
 .header figure img {
-    width: 65%;
+    width: 50%;
 
 }
 
 .article {
     margin-top: 10%;
     color: var(--white);
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fadeInFromBottom 1s ease forwards;
+}
+
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
 }
 
 .article h1 {
@@ -72,15 +103,32 @@ body {
     gap: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fadeInFromBottom 1s ease forwards;
+}
+
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .form-inputs input {
     width: 100%;
     display: flex;
     border-radius: 30px;
-    margin-top: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: medium;
     padding: 5px;
@@ -93,7 +141,8 @@ span {
 button {
     border-radius: 30px;
     background-color: orangered;
-    margin-top: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: aliceblue;
     font-size: large;
     padding: 5px;
@@ -109,3 +158,4 @@ button {
     .header figure {
         width: 80%;
     }
+}
