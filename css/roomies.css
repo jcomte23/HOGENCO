@@ -8,15 +8,45 @@
     padding: 1% 5% 1% 5%;
 }
 
-.header__navbar{
+.header__navbar {
     display: flex;
     justify-content: end;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fadeInFromTop 1s ease forwards;
 }
 
-.title{
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title {
     width: 40%;
     font-size: 48px;
     line-height: 1.1;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fadeInFromTop 1s ease forwards;
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .main {
@@ -32,6 +62,16 @@
     padding: 20px;
     display: flex;
     gap: 5%;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .card {
@@ -64,23 +104,23 @@
         width: 100%;
         margin-bottom: 3%;
     }
-    
-    .navbar{
+
+    .navbar {
         width: 100%;
         margin-right: 0px;
     }
-    
-    .title{
+
+    .title {
         margin-top: 3%;
         text-align: center;
         width: 100%;
     }
 
-    .container_roomie{
+    .container_roomie {
         flex-direction: column;
     }
 
-    .card{
+    .card {
         width: 100%;
         margin-bottom: 30px;
     }
@@ -89,7 +129,7 @@
 
 /* Estilos para tablets en modo paisaje y monitores pequeños */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .header__navbar{
+    .header__navbar {
         justify-content: center;
     }
 
@@ -97,7 +137,7 @@
         width: 70%;
     }
 
-    .title{
+    .title {
         margin-top: 1%;
         width: 100%;
         text-align: center;
@@ -115,8 +155,8 @@
     .navbar {
         width: 50%;
     }
-    
-    .title{
+
+    .title {
         font-size: 40px;
     }
 
@@ -127,7 +167,7 @@
 
 /* Estilos para pantallas muy grandes (por ejemplo, 4K TVs) */
 @media screen and (min-width: 1920px) {
-    body{
+    body {
         font-size: 25px;
     }
 
@@ -135,7 +175,7 @@
         width: 50%;
     }
 
-    .title{
+    .title {
         font-size: 70px;
     }
 
