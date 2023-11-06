@@ -45,25 +45,22 @@ a{
 
 .navbar {
     display: flex;
-    flex-direction: row;
-    width: 50%;
     justify-content: space-around;
+    align-items: center;
+    width: 50%;
     background-color: var(--gray-dark);
     border-radius: 20px;
-    margin-right: 15px;
-}
-
-.navbar a:first-child {
-    margin-left: 20px;
 }
 
 .navbar a {
     color: var(--white);
-    margin-top: 10px;
-    margin-bottom: 10px;
     text-decoration: none;
     background-color: transparent;
     transition: all 0.3s ease 0s;
+}
+
+.navbar a:last-child{
+    font-size: 200%;
 }
 
 .navbar a:hover,
@@ -173,14 +170,30 @@ ul {
     background-color: #fff;
 }
 
-/* responsive */
+/* 
+=====================
+|Estilos responsivos|
+=====================
+*/
 
-@media (max-width: 767px) {
+/* Estilos para tablets en modo retrato */
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .navbar {
+        width: 100%;
+        margin-top: 2%;
+
+    }
+
+    .footer__logo img {
+        width: 60%;
+    }
+    
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
+
 
 @media (max-width: 574px) {
     .footer-col {

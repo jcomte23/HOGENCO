@@ -19,7 +19,6 @@ body {
 }
 
 .header figure {
-    padding-left: 2%;
     width: 100%;
 }
 
@@ -87,19 +86,9 @@ body {
     }
 
     .header figure {
-        width: 80%;
-    }
-
-    .navbar a:first-child {
-        margin-left: 0px;
-    }
-
-    .navbar {
-        width: 100%;
-        margin-top: 5%;
-        margin-right: 0px;
-        padding-left: 15px;
-        padding-right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section {
