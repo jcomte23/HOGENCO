@@ -90,11 +90,12 @@ video {
         opacity: 0;
         transform: translateY(100%);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
-    
+
 }
 
 form {
@@ -112,6 +113,7 @@ form {
         opacity: 0;
         transform: translateY(100%);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -150,7 +152,7 @@ legend {
     justify-content: space-between;
     align-items: center;
     gap: 1%;
-    margin-bottom: 4%;  
+    margin-bottom: 4%;
 }
 
 .form__price input {
@@ -182,13 +184,13 @@ legend {
     width: 100%;
 }
 
-.switch__multiple{
+.switch__multiple {
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 4%;
 }
 
-.switch__binari{
+.switch__binari {
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -223,7 +225,7 @@ legend {
     color: var(--white);
 }
 
-.filter{
+.filter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,10 +245,12 @@ legend {
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -255,4 +259,121 @@ legend {
 .footer {
     position: relative;
     z-index: 2;
+}
+
+
+/* Estilos para tablets en modo retrato */
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 35px;
+        margin-top: 3%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header figure {
+        width: 80%;
+    }
+
+
+    form {
+        flex-direction: column;
+    }
+
+    .form__left {
+        width: 100%;
+    }
+    
+    .form_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form__type {
+        width: 90%;
+    }
+    
+    .switch__multiple {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 4%;
+    }
+    
+    .switch__binari {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .filter{
+        margin-top: 6%;
+        display: row;
+        justify-content: center
+    }
+
+    .filter a button {
+        width: 150%;
+    }
+
+
+}
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 60%;
+    }
+
+    .form__type {
+        width: 90%;
+    }
+
+    .switch__binari {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+}
+
+
+/* Estilos para pantallas grandes y televisores */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 40%;
+        font-size: 20px;
+    }
+
+    .form__type {
+        width: 90%;
+    }
+
+    .switch__binari {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 }
