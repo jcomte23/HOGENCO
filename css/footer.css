@@ -74,7 +74,7 @@ ul{
 
 .footer-col ul li a:hover{
     color:#fff;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 
 .footer-col .social-links a{
@@ -94,6 +94,8 @@ ul{
     color: #FF5621;
     background-color: #fff;
 }
+
+
 
 /* responsive */
 
