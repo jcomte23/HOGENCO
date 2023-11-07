@@ -281,10 +281,99 @@ legend {
         width: 100%;
     }
 
-
     .header figure {
         width: 80%;
     }
 
 
+    form {
+        flex-direction: column;
+    }
+
+    .form__left {
+        width: 100%;
+    }
+    
+    .form_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form__type {
+        width: 90%;
+    }
+    
+    .switch__multiple {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 4%;
+    }
+    
+    .switch__binari {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .filter{
+        margin-top: 6%;
+        display: row;
+        justify-content: center
+    }
+
+    .filter a button {
+        width: 150%;
+    }
+
+
+}
+
+/* Estilos para tablets en modo paisaje y monitores pequeños */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 60%;
+    }
+
+    .form__type {
+        width: 90%;
+    }
+
+    .switch__binari {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+}
+
+
+/* Estilos para pantallas grandes y televisores */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    .header__navbar{
+        justify-content: center;
+    }
+
+    .header figure {
+        width: 30%;
+    }
+
+    .navbar {
+        width: 40%;
+        font-size: 20px;
+    }
+
+    .form__type {
+        width: 90%;
+    }
+
+    .switch__binari {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 }
