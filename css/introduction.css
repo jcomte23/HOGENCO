@@ -9,9 +9,6 @@ body {
 
 .header {
     padding: 4% 4% 0 4%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     opacity: 0;
     transform: translateY(-100%);
     animation: fadeInFromTop 1s ease forwards;
@@ -56,9 +53,6 @@ body {
 
 .main {
     padding: 4% 4% 10% 4%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     opacity: 0;
     transform: translateY(100%);
     animation: fadeInFromBottom 1s ease forwards;
@@ -78,29 +72,22 @@ body {
 
 
 .section {
-    text-align: center;
     margin: 8% 29% 0 29%;
 }
 
 .section__message {
     color: var(--white);
     background-color: var(--black-light);
-    border-radius: 50px;
     padding: 2% 15% 2% 15%;
 }
 
-.section__message span {
-    font-size: 20px;
-}
 
 .section__message h1 {
     font-size: 50px;
-    font-weight: bold;
     line-height: 1.1;
 }
 
 .section__button {
-    text-align: center;
     margin-top: 8%;
 }
 
@@ -108,11 +95,6 @@ body {
     width: 55%;
     background-color: var(--white);
     color: var(--black);
-    border-radius: 50px;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 20px;
     cursor: pointer;
 }
 
