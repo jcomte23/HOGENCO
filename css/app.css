@@ -9,9 +9,11 @@
     --white-light: rgba(255, 255, 255, 0.8);
     --gray-light: rgba(177, 180, 187, 0.2);
     --gray-dark: #211F15;
+    --item-footer: #bbb;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
+
 }
 
 * {
@@ -50,11 +52,13 @@
 |    PIE DE PAGINA    |
 ======================= 
 */
+.footer {
+    background-color: var(--gray-dark);
+    padding: 15px 0;
+    width: 100% !important;
+}
 
 .footer__logo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
     margin: 50px;
 }
 
@@ -68,31 +72,13 @@
     margin: 50px;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul {
-    list-style: none;
-}
-
-.footer {
-    background-color: #211F15;
-    padding: 15px 0;
-    width: 100% !important;
-
-}
-
-.footer-col {
+/* .footer-col {
     width: 25%;
     padding: 0 15px;
-}
+} */
 
 .footer-col h2 {
-    font-size: 18px;
-    color: #fff;
-    text-transform: capitalize;
+    color: var(--white);
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
@@ -103,7 +89,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #FF5621;
+    background-color: var(--primary);
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -114,18 +100,15 @@ ul {
 }
 
 .footer-col ul li a {
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #fff;
-    text-decoration: none;
+    font-size: 1rem;
+    color: var(--white);
     font-weight: 300;
-    color: #bbb;
-    display: block;
+    color: var(--item-footer);
     transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-    color: #fff;
+    color: var(--white);
     padding-left: 8px;
 }
 
@@ -157,13 +140,12 @@ ul {
     .navbar {
         width: 100%;
         margin-top: 2%;
-
     }
 
     .footer__logo img {
         width: 60%;
     }
-    
+
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
@@ -171,13 +153,13 @@ ul {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .navbar {
         width: 100%;
         margin-top: 2%;
 
     }
-    
+
     .footer__logo img {
         width: 25%;
     }
@@ -194,4 +176,3 @@ ul {
         font-size: 150%;
     }
 }
-
