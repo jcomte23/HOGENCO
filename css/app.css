@@ -113,21 +113,18 @@
 }
 
 .footer-col .social-links a {
-    display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: #FF5621;
+    background-color: var(--primary);
     margin: 0 10px 10px 0;
-    text-align: center;
     line-height: 40px;
-    border-radius: 50%;
-    color: #fff;
+    color: var(--white);
     transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover {
-    color: #FF5621;
-    background-color: #fff;
+    color: var(--primary);
+    background-color: var(--white);
 }
 
 /* 
