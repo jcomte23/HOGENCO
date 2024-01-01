@@ -1,8 +1,8 @@
 @import url("app.css");
 
-*{
+/* *{
     font-family: "poppins";
-}
+} */
 .header{
     margin-top: 3%;
     display: flex;
